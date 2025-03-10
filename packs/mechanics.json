@@ -2239,7 +2239,221 @@
       },
       "animation": null,
       "type": "Group",
-      "members": []
+      "members": [
+        {
+          "enabled": true,
+          "name": "CountdownIcon",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                38098
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/0/05/Countdown.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [
+            {
+              "trigger": {
+                "ProgressThreshold": {
+                  "threshold_type": {
+                    "Between": [
+                      3.0,
+                      5.0
+                    ]
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "properties": {
+                "tint": [
+                  1.0,
+                  1.0,
+                  0.0,
+                  1.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": 6.0,
+                "border_color": [
+                  1.0,
+                  1.0,
+                  0.0,
+                  1.0
+                ]
+              }
+            },
+            {
+              "trigger": {
+                "ProgressThreshold": {
+                  "threshold_type": {
+                    "Below": 2.0
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "properties": {
+                "tint": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": 6.0,
+                "border_color": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              }
+            },
+            {
+              "trigger": {
+                "ProgressThreshold": {
+                  "threshold_type": {
+                    "Above": 6.0
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "properties": {
+                "tint": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                "zoom": null,
+                "round": null,
+                "border_size": null,
+                "border_color": null
+              }
+            }
+          ],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            100.0,
+            100.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "CountdownText",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            70.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                38098
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Text",
+          "text": "%c",
+          "font": null,
+          "align": "Center",
+          "scale": 1.5,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "decoration": "Shadow",
+          "conditions": [
+            {
+              "trigger": {
+                "ProgressThreshold": {
+                  "threshold_type": {
+                    "Above": 6.0
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "properties": {
+                "scale": null,
+                "color": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  0.0
+                ],
+                "decoration": null
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
