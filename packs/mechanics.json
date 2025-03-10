@@ -1,0 +1,2245 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "Mechanics",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    0.0,
+    0.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": "Inherit",
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "Mechanics",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "Vale Guardian",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Unstable Magic Spikes",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    51371
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/f/fd/Arcane_Thievery.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            },
+            {
+              "enabled": false,
+              "name": "Unstable Magic Spikes",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    31392
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/f/fd/Arcane_Thievery.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Sabetha",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Time Bomb",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    31485
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/9/91/Time_Bomb.png"
+              },
+              "tint": [
+                1.0,
+                0.48471618,
+                0.48471618,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Sapper Bomb",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    31473
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/8/88/Sapper_Bomb_%28effect%29.png"
+              },
+              "tint": [
+                0.21031272,
+                1.0,
+                0.10917032,
+                0.90829694
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Slothasor",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Volatile Poison",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    34387
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/1/12/Volatile_Poison.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Fixated",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    34508
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/6/66/Fixated.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Matthias",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Unstable Blood Magic",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    34450
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/0/09/Unstable_Blood_Magic.png"
+              },
+              "tint": [
+                1.0,
+                0.55458516,
+                0.55458516,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Corruption",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    34416
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/3/34/Locust_Trail.png"
+              },
+              "tint": [
+                0.6026201,
+                0.8486206,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "KC",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Fixate",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    34912,
+                    34925
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/6/66/Fixated.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Xera",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Intervention",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    35000
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/3/3f/Intervention.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Souless Horror",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "necrosis",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    47414
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Above": 4.0
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/4/47/Ichor.png"
+              },
+              "tint": [
+                1.0,
+                0.55021834,
+                0.55021834,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "CA",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Locked on",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    53075
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/3/39/Target%21.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Shattered observatory",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Corporeal Reassignment",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    38880
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/9/94/Redirect_Anomaly.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Sunqua Peaks",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Tidal Bargain",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    61512
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Above": 6.0
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/8/89/Waterlogged.png"
+              },
+              "tint": [
+                1.0,
+                0.39737993,
+                0.39737993,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Gorseval",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Ghastly Prison",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    31623
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/6/62/Ghastly_Prison.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Spectral Darkness",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    31498
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/a/a8/Spectral_Darkness.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Cairn",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Displacement",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    38113
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/f/fd/Arcane_Thievery.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                100.0,
+                100.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Mehanics Info",
+      "anchor": "Parent",
+      "pos": [
+        135.0,
+        350.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "Vale Guardian",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Green",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    31852
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/a/aa/Pylon_Attunement-_Green.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Red",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    31695
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/9/94/Pylon_Attunement-_Red.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Blue",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    31317
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/6/6e/Blue_Pylon_Power.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Souless Horror",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "necrosis",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    47414
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/4/47/Ichor.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Sunqua Peaks",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Tidal Bargain",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    61512
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Above": 6.0
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/8/89/Waterlogged.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Sabetha",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Shell-Shocked",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    34108
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Above": 6.0
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/3/39/Shell-Shocked.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Slothasor",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Nauseated",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    34496
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Above": 6.0
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/3/30/Nauseated.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "Countdown",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": []
+    }
+  ]
+}

@@ -1,0 +1,1210 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "Weapon Mechanics",
+  "pos": [
+    0.0,
+    0.0
+  ],
+  "opacity": 1.0,
+  "anchor": "Center",
+  "layer": 0,
+  "elements": [
+    {
+      "name": "Elementalist",
+      "pos": [
+        -270.0,
+        379.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Elementalist"
+          ],
+          "specs": [],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "name": "Fire (N/A)",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Any": [
+                62931,
+                71936
+              ]
+            },
+            "threshold": "Missing"
+          },
+          "icon": {
+            "File": "ele-fire-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            0.99999,
+            0.99999,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Water (N/A)",
+          "pos": [
+            32.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Any": [
+                62984,
+                71862
+              ]
+            },
+            "threshold": "Missing"
+          },
+          "icon": {
+            "File": "ele-water-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Air (N/A)",
+          "pos": [
+            64.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Any": [
+                62707,
+                71848
+              ]
+            },
+            "threshold": "Missing"
+          },
+          "icon": {
+            "File": "ele-air-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Earth (N/A)",
+          "pos": [
+            96.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Any": [
+                62768,
+                71881
+              ]
+            },
+            "threshold": "Missing"
+          },
+          "icon": {
+            "File": "ele-earth-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Flame Wheel",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 62931
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ele-fire-1.png"
+          },
+          "duration": true,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Icy Coil",
+          "pos": [
+            32.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 62984
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ele-water-1.png"
+          },
+          "duration": true,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Crescent Wind",
+          "pos": [
+            64.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 62707
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ele-air-1.png"
+          },
+          "duration": true,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Rocky Loop",
+          "pos": [
+            96.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 62768
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ele-earth-1.png"
+          },
+          "duration": true,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Fire Bullet",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 71936
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ele-fire-1.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Ice Bullet",
+          "pos": [
+            32.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 71862
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ele-water-1.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Air Bullet",
+          "pos": [
+            64.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 71848
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ele-air-1.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Earth Bullet",
+          "pos": [
+            96.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 71881
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ele-earth-1.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elementalist/Weaver",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Elementalist"
+          ],
+          "specs": [
+            "Weaver"
+          ],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": []
+    },
+    {
+      "name": "Elementalist/Catayst",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Elementalist"
+          ],
+          "specs": [
+            "Catalyst"
+          ],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": []
+    },
+    {
+      "name": "Necromancer",
+      "pos": [
+        -277.0,
+        406.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Necromancer"
+          ],
+          "specs": [
+            "Reaper",
+            "Harbinger"
+          ],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "name": "Necromancer (N/A)",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 0
+            },
+            "threshold": "Missing"
+          },
+          "icon": {
+            "File": "necro-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Soul Shards",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 0
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "necro-1.png"
+          },
+          "duration": false,
+          "stacks": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Necromancer/Scourge",
+      "pos": [
+        -278.0,
+        372.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Necromancer"
+          ],
+          "specs": [
+            "Scourge"
+          ],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "name": "Necromancer (N/A)",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 0
+            },
+            "threshold": "Missing"
+          },
+          "icon": {
+            "File": "necro-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Soul Shards",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 0
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "necro-1.png"
+          },
+          "duration": false,
+          "stacks": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thief",
+      "pos": [
+        -232.0,
+        431.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Thief"
+          ],
+          "specs": [
+            "Daredevil",
+            "Deadeye"
+          ],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "name": "Thief (N/A)",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Any": [
+                71815
+              ]
+            },
+            "threshold": "Missing"
+          },
+          "icon": {
+            "File": "thief-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            30.0,
+            30.0
+          ]
+        },
+        {
+          "name": "Axe Counter",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 71815
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "thief-1.png"
+          },
+          "duration": false,
+          "stacks": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            30.0,
+            30.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thief/Specter",
+      "pos": [
+        -275.0,
+        379.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Thief"
+          ],
+          "specs": [
+            "Specter"
+          ],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "name": "Thief (N/A)",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Any": [
+                71815
+              ]
+            },
+            "threshold": "Missing"
+          },
+          "icon": {
+            "File": "thief-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Axe Counter",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 71815
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "thief-1.png"
+          },
+          "duration": false,
+          "stacks": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ranger",
+      "pos": [
+        -277.0,
+        379.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Ranger"
+          ],
+          "specs": [
+            "Druid",
+            "Soulbeast"
+          ],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "name": "Ranger (N/A)",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": "None",
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ranger-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Nature's Force",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 0.4925,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 71976
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ranger-1.png"
+          },
+          "duration": false,
+          "stacks": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ranger/Untamed",
+      "pos": [
+        -277.0,
+        356.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "player": {
+          "combat": null,
+          "profs": [
+            "Ranger"
+          ],
+          "specs": [
+            "Untamed"
+          ],
+          "mounts": []
+        },
+        "map": "Any"
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "name": "Ranger (N/A)",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": "None",
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ranger-0.png"
+          },
+          "duration": false,
+          "stacks": false,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        },
+        {
+          "name": "Nature's Force",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 0.4925,
+          "trigger": {
+            "player": {
+              "combat": null,
+              "profs": [],
+              "specs": [],
+              "mounts": []
+            },
+            "map": "Any"
+          },
+          "animation": null,
+          "type": "Icon",
+          "buff": {
+            "id": {
+              "Single": 71976
+            },
+            "threshold": "Present"
+          },
+          "icon": {
+            "File": "ranger-1.png"
+          },
+          "duration": false,
+          "stacks": true,
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "size": [
+            32.0,
+            32.0
+          ]
+        }
+      ]
+    }
+  ]
+}

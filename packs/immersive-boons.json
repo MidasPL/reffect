@@ -1,0 +1,1433 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "immersive-boons",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    0.5,
+    0.5
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": "Inherit",
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "regeneration",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        35.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "present",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "regeneration",
+              "anchor": "Parent",
+              "pos": [
+                2.0,
+                558.0
+              ],
+              "opacity": 0.25,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    718,
+                    17495,
+                    17674
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Immersive Regeneration v2.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                75.0,
+                70.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "regeneration text",
+              "anchor": "Parent",
+              "pos": [
+                45.0,
+                579.0
+              ],
+              "opacity": 0.8,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    718,
+                    17495,
+                    17674
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.1,
+              "color": [
+                1.0,
+                0.99999696,
+                0.99999,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "regeneration small",
+              "anchor": "Parent",
+              "pos": [
+                33.0,
+                583.0
+              ],
+              "opacity": 0.2,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    718,
+                    17495,
+                    17674
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Immersive Regeneration v2.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "regeneration smallest",
+              "anchor": "Parent",
+              "pos": [
+                40.0,
+                611.0
+              ],
+              "opacity": 0.15,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    718,
+                    17495,
+                    17674
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Immersive Regeneration v2.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                40.0,
+                40.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "aegis/block",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        568.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": [
+            "None"
+          ]
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "present",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "aegis/block",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                25.0
+              ],
+              "opacity": 0.9,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    743,
+                    2785,
+                    5640,
+                    9123,
+                    62907,
+                    29303,
+                    62706,
+                    71973,
+                    6055,
+                    12524,
+                    62844,
+                    10279,
+                    5997
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Immersive Aegis.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                132.0,
+                62.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "aegis/block text",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                20.0
+              ],
+              "opacity": 0.8,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    743,
+                    2785,
+                    5640,
+                    9123,
+                    62907,
+                    29303,
+                    62706,
+                    71973,
+                    6055,
+                    12524,
+                    62844,
+                    10279,
+                    5997
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                0.6911327,
+                0.73326343,
+                0.943662,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": false,
+      "name": "legacy-design",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "vigor",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": [
+                "None"
+              ]
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "present",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "vigor",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    600.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        726
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "Immersive Vigor.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    108.0,
+                    58.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "vigor text",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    564.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        726
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%r",
+                  "font": null,
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    0.9882353,
+                    0.7019608,
+                    0.047058824,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "not_present",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "vigor",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    600.0
+                  ],
+                  "opacity": 0.5,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        726
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Missing",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "Immersive Vigor.png"
+                  },
+                  "tint": [
+                    0.657277,
+                    0.65727043,
+                    0.65727043,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    108.0,
+                    58.0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "vigor",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": [
+            "None"
+          ]
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "present",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "vigor",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                572.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    726
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "File": "Immersive Vigor v2.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                119.0,
+                35.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "vigor text",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                548.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    726
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.1,
+              "color": [
+                0.9882353,
+                0.7019608,
+                0.047058824,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            },
+            {
+              "enabled": true,
+              "name": "vigor indicator",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                562.25
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    726
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": {
+                "kind": "Pulse",
+                "period": 2500
+              },
+              "type": "Icon",
+              "icon": {
+                "File": "Immersive Vigor indicator.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                24.0,
+                7.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "enabled": true,
+      "name": "stability",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        51.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "present",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "stack 1",
+              "anchor": "Parent",
+              "pos": [
+                -43.0,
+                633.0
+              ],
+              "opacity": 0.8,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "stability",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        1122
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 1.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "Immersive Stability 1.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    39.0,
+                    41.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "stack 2",
+              "anchor": "Parent",
+              "pos": [
+                43.0,
+                633.0
+              ],
+              "opacity": 0.8,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "stability",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        1122
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": {
+                        "Above": 2.0
+                      },
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "File": "Immersive Stability 2.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    39.0,
+                    41.0
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "stability text",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                641.0
+              ],
+              "opacity": 0.8,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    1122
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.1,
+              "color": [
+                1.0,
+                0.99999696,
+                0.99999,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1730 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "Boons",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    0.0,
+    0.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": "Inherit",
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "Boons",
+      "anchor": "Parent",
+      "pos": [
+        0.0,
+        375.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "Fury",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "FuryLack",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    725
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/4/46/Fury.png"
+              },
+              "tint": [
+                1.0,
+                0.5155039,
+                0.5155039,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Fury",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    725
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/4/46/Fury.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "FuryText",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                35.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    725
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Might",
+          "anchor": "Parent",
+          "pos": [
+            65.0,
+            140.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "MightLack",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    740
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Between": [
+                      0.0,
+                      8.0
+                    ]
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/7/7c/Might.png"
+              },
+              "tint": [
+                0.6085271,
+                0.35143623,
+                0.35143623,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "MightLow",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    740
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Between": [
+                      9.0,
+                      14.0
+                    ]
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/7/7c/Might.png"
+              },
+              "tint": [
+                0.58527136,
+                0.5852655,
+                0.5852655,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "MightMed",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    740
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Between": [
+                      15.0,
+                      21.0
+                    ]
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/7/7c/Might.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "MightHigh",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    740
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Between": [
+                      22.0,
+                      25.0
+                    ]
+                  },
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/7/7c/Might.png"
+              },
+              "tint": [
+                0.09963904,
+                0.9031008,
+                0.08050897,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Aegis",
+          "anchor": "Parent",
+          "pos": [
+            150.0,
+            -150.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Aegis",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    743
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/e/e5/Aegis.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "AegisDuration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                35.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    743
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Stability",
+          "anchor": "Parent",
+          "pos": [
+            -150.0,
+            -150.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Stability",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    1122
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/a/ae/Stability.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "StabilityDuration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                35.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    1122
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Quickness",
+          "anchor": "Parent",
+          "pos": [
+            -50.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "QuicknessLack",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    1187
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/b/b4/Quickness.png"
+              },
+              "tint": [
+                1.0,
+                0.49224806,
+                0.49224806,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Quickness",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    1187
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/b/b4/Quickness.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "QuicknessDuration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                35.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    1187
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Alacrity",
+          "anchor": "Parent",
+          "pos": [
+            50.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "AlacrityLack",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    30328
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png"
+              },
+              "tint": [
+                1.0,
+                0.5232558,
+                0.5232558,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Alacrity",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    30328
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "AlacrityDuration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                35.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    30328
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": false,
+          "name": "Vigor",
+          "anchor": "Parent",
+          "pos": [
+            100.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Vigor",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    726
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/f/f4/Vigor.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "VigorDuration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                35.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    726
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Superpeed",
+          "anchor": "Parent",
+          "pos": [
+            100.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Superspeed",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    5974
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/c/c8/Superspeed.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": false,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "SuperspeedDuration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                35.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    5974
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Protection",
+          "anchor": "Parent",
+          "pos": [
+            -100.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Protection",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    717
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Icon",
+              "icon": {
+                "Url": "https://wiki.guildwars2.com/images/6/6c/Protection.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "border_size": 0.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false,
+              "size": [
+                50.0,
+                50.0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "ProtectionDuration",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                35.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    717
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

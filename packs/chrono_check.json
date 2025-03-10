@@ -1,0 +1,188 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "Chrono Check",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    0.0,
+    0.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": "Inherit",
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "Icons",
+      "anchor": "Parent",
+      "pos": [
+        630.0,
+        636.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Always",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [
+            "Chronomancer"
+          ],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "Alac",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Always",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [
+                {
+                  "id": 1942,
+                  "present": true
+                }
+              ],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "File": "chronocheck\\alacrity.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            147.0,
+            125.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Quickness",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Always",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [
+                {
+                  "id": 2022,
+                  "present": true
+                }
+              ],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "File": "chronocheck\\quickness.png"
+          },
+          "tint": [
+            1.0,
+            0.99999,
+            0.9999992,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": false,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            139.0,
+            125.0
+          ]
+        }
+      ]
+    }
+  ]
+}

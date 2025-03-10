@@ -1,0 +1,426 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "Relics",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    0.0,
+    0.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": "Inherit",
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "Relics",
+      "anchor": "Parent",
+      "pos": [
+        -150.0,
+        320.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "weapons": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "Fireworks",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                69855
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/6/6c/Relic_of_Fireworks.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            50.0,
+            50.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Aristocracy",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                69795
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/6/60/Relic_of_the_Aristocracy.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": true,
+          "size": [
+            50.0,
+            50.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Deadeye",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                70282
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/0/08/Relic_of_the_Deadeye.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            50.0,
+            50.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Monk",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                71132
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/c/c9/Relic_of_the_Monk.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": true,
+          "size": [
+            50.0,
+            50.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Thief",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                70767
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/0/04/Relic_of_the_Thief.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": true,
+          "size": [
+            50.0,
+            50.0
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Duration",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            32.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                69855,
+                69795,
+                70282,
+                71132,
+                70767
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Text",
+          "text": "%r",
+          "font": null,
+          "align": "Center",
+          "scale": 1.0,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "decoration": "Shadow",
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}
