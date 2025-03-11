@@ -921,69 +921,6 @@
               ]
             },
             {
-              "enabled": false,
-              "name": "Distortion",
-              "anchor": "Parent",
-              "pos": [
-                0.0,
-                0.0
-              ],
-              "opacity": 1.0,
-              "trigger": {
-                "source": {
-                  "Buff": [
-                    10243
-                  ]
-                },
-                "threshold": {
-                  "threshold_type": "Present",
-                  "amount_type": "Intensity"
-                }
-              },
-              "filter": {
-                "player": {
-                  "combat": null,
-                  "specs": [],
-                  "weapons": [],
-                  "traits": [],
-                  "mounts": []
-                },
-                "map": {
-                  "category": [],
-                  "whitelist": true,
-                  "ids": []
-                }
-              },
-              "animation": null,
-              "type": "Icon",
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/2/22/Distortion.png"
-              },
-              "tint": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ],
-              "zoom": 1.0,
-              "round": 0.0,
-              "border_size": 0.0,
-              "border_color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ],
-              "conditions": [],
-              "duration_bar": true,
-              "duration_text": false,
-              "stacks_text": false,
-              "size": [
-                50.0,
-                50.0
-              ]
-            },
-            {
               "enabled": true,
               "name": "Compounding Power",
               "anchor": "Parent",
@@ -2690,6 +2627,228 @@
                   "direction": "Right",
                   "tick_unit": "Percent",
                   "ticks": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Helper",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "WeaponSwap",
+                      "anchor": "Parent",
+                      "pos": [
+                        -105.0,
+                        275.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "SkillbarSlot": "WeaponSwap"
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "Url": "https://wiki.guildwars2.com/images/c/ce/Weapon_Swap_Button.png"
+                      },
+                      "tint": [
+                        0.8457983,
+                        0.5414847,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        40.0,
+                        40.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "PhantasmalSwordsman",
+                      "anchor": "Parent",
+                      "pos": [
+                        105.0,
+                        275.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            10174
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "Url": "https://wiki.guildwars2.com/images/4/48/Phantasmal_Swordsman.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        40.0,
+                        40.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "PhantasmalWarden",
+                      "anchor": "Parent",
+                      "pos": [
+                        105.0,
+                        275.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            10282
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "Url": "https://wiki.guildwars2.com/images/4/4f/Phantasmal_Warden.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        40.0,
+                        40.0
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -3742,6 +3901,1448 @@
                   "size": [
                     70.0,
                     70.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Helper",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Conduit Surge",
+                      "anchor": "Parent",
+                      "pos": [
+                        250.0,
+                        -150.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            73122
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Conduit Surge",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/6/6b/Conduit_Surge.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  0.82969433,
+                                  0.1086936,
+                                  0.1086936,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "CD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            30.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%r",
+                          "font": null,
+                          "align": "Center",
+                          "scale": 1.0999999,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "Shadow",
+                          "conditions": []
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Lightning Rod",
+                      "anchor": "Parent",
+                      "pos": [
+                        290.0,
+                        -150.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            73002
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Lightning Rod",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/f/f9/Lightning_Rod_%28engineer_spear_skill%29.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  0.83137256,
+                                  0.10980392,
+                                  0.10980392,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "CD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            30.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%r",
+                          "font": null,
+                          "align": "Center",
+                          "scale": 1.0999999,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "Shadow",
+                          "conditions": []
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Electric Artillery",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": {
+                              "Ability": [
+                                73143
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Present",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/1/13/Electric_Artillery.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Devastator",
+                      "anchor": "Parent",
+                      "pos": [
+                        330.0,
+                        -150.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            72974
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Devastator",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/d/da/Devastator.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  0.83137256,
+                                  0.10980392,
+                                  0.10980392,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "CD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            30.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%r",
+                          "font": null,
+                          "align": "Center",
+                          "scale": 1.0999999,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "Shadow",
+                          "conditions": []
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Superconducting Signet",
+                      "anchor": "Parent",
+                      "pos": [
+                        370.0,
+                        -150.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            63113
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Superconducting Signet",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/5/51/Superconducting_Signet.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  0.83137256,
+                                  0.10980392,
+                                  0.10980392,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "CD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            30.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%r",
+                          "font": null,
+                          "align": "Center",
+                          "scale": 1.0999999,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "Shadow",
+                          "conditions": []
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Overclock Signet",
+                      "anchor": "Parent",
+                      "pos": [
+                        410.0,
+                        -150.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            63095
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Overclock Signet",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/c/c7/Overclock_Signet.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  0.83137256,
+                                  0.10980392,
+                                  0.10980392,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "CD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            30.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%r",
+                          "font": null,
+                          "align": "Center",
+                          "scale": 1.0999999,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "Shadow",
+                          "conditions": []
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shrapnel Grenade",
+                      "anchor": "Parent",
+                      "pos": [
+                        250.0,
+                        -150.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            5807
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Shrapnel Grenade",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/5/5f/Shrapnel_Grenade.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  0.83137256,
+                                  0.10980392,
+                                  0.10980392,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "CD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            30.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%r",
+                          "font": null,
+                          "align": "Center",
+                          "scale": 1.0999999,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "Shadow",
+                          "conditions": []
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Freeze Grenade",
+                      "anchor": "Parent",
+                      "pos": [
+                        290.0,
+                        -150.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            5809
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Freeze Grenade",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/b/bf/Freeze_Grenade.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  0.83137256,
+                                  0.10980392,
+                                  0.10980392,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "CD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            30.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%r",
+                          "font": null,
+                          "align": "Center",
+                          "scale": 1.0999999,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "Shadow",
+                          "conditions": []
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Poison Grenade",
+                      "anchor": "Parent",
+                      "pos": [
+                        330.0,
+                        -150.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Ability": [
+                            5806
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "Poison Grenade",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Icon",
+                          "icon": {
+                            "Url": "https://wiki.guildwars2.com/images/0/05/Poison_Grenade.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": "Missing",
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  0.83137256,
+                                  0.10980392,
+                                  0.10980392,
+                                  1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            }
+                          ],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false,
+                          "size": [
+                            40.0,
+                            40.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "CD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            30.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "Inherit",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Text",
+                          "text": "%r",
+                          "font": null,
+                          "align": "Center",
+                          "scale": 1.0999999,
+                          "color": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "decoration": "Shadow",
+                          "conditions": []
+                        }
+                      ]
+                    }
                   ]
                 }
               ]
