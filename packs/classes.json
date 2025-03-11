@@ -3923,7 +3923,9 @@
                     "player": {
                       "combat": null,
                       "specs": [],
-                      "weapons": [],
+                      "weapons": [
+                        "Spear"
+                      ],
                       "traits": [],
                       "mounts": []
                     },
@@ -4153,9 +4155,7 @@
                           "trigger": {
                             "source": "Inherit",
                             "threshold": {
-                              "threshold_type": {
-                                "Below": 5.0
-                              },
+                              "threshold_type": "Always",
                               "amount_type": "Duration"
                             }
                           },
@@ -4197,8 +4197,13 @@
                             {
                               "trigger": {
                                 "ProgressThreshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
+                                  "threshold_type": {
+                                    "Between": [
+                                      0.01,
+                                      5.0
+                                    ]
+                                  },
+                                  "amount_type": "Duration"
                                 }
                               },
                               "properties": {
@@ -4207,6 +4212,28 @@
                                   0.10980392,
                                   0.10980392,
                                   1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.23529412
                                 ],
                                 "zoom": null,
                                 "round": null,
@@ -4384,9 +4411,7 @@
                           "trigger": {
                             "source": "Inherit",
                             "threshold": {
-                              "threshold_type": {
-                                "Below": 5.0
-                              },
+                              "threshold_type": "Always",
                               "amount_type": "Duration"
                             }
                           },
@@ -4428,8 +4453,13 @@
                             {
                               "trigger": {
                                 "ProgressThreshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
+                                  "threshold_type": {
+                                    "Between": [
+                                      0.01,
+                                      5.0
+                                    ]
+                                  },
+                                  "amount_type": "Duration"
                                 }
                               },
                               "properties": {
@@ -4438,6 +4468,28 @@
                                   0.10980392,
                                   0.10980392,
                                   1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.23529412
                                 ],
                                 "zoom": null,
                                 "round": null,
@@ -4552,9 +4604,7 @@
                           "trigger": {
                             "source": "Inherit",
                             "threshold": {
-                              "threshold_type": {
-                                "Below": 5.0
-                              },
+                              "threshold_type": "Always",
                               "amount_type": "Duration"
                             }
                           },
@@ -4596,8 +4646,13 @@
                             {
                               "trigger": {
                                 "ProgressThreshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
+                                  "threshold_type": {
+                                    "Between": [
+                                      0.01,
+                                      5.0
+                                    ]
+                                  },
+                                  "amount_type": "Duration"
                                 }
                               },
                               "properties": {
@@ -4606,6 +4661,28 @@
                                   0.10980392,
                                   0.10980392,
                                   1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.23529412
                                 ],
                                 "zoom": null,
                                 "round": null,
@@ -4720,9 +4797,7 @@
                           "trigger": {
                             "source": "Inherit",
                             "threshold": {
-                              "threshold_type": {
-                                "Below": 5.0
-                              },
+                              "threshold_type": "Always",
                               "amount_type": "Duration"
                             }
                           },
@@ -4764,8 +4839,13 @@
                             {
                               "trigger": {
                                 "ProgressThreshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
+                                  "threshold_type": {
+                                    "Between": [
+                                      0.01,
+                                      5.0
+                                    ]
+                                  },
+                                  "amount_type": "Duration"
                                 }
                               },
                               "properties": {
@@ -4774,6 +4854,28 @@
                                   0.10980392,
                                   0.10980392,
                                   1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.23529412
                                 ],
                                 "zoom": null,
                                 "round": null,
@@ -4888,9 +4990,7 @@
                           "trigger": {
                             "source": "Inherit",
                             "threshold": {
-                              "threshold_type": {
-                                "Below": 5.0
-                              },
+                              "threshold_type": "Always",
                               "amount_type": "Duration"
                             }
                           },
@@ -4932,8 +5032,13 @@
                             {
                               "trigger": {
                                 "ProgressThreshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
+                                  "threshold_type": {
+                                    "Between": [
+                                      0.01,
+                                      5.0
+                                    ]
+                                  },
+                                  "amount_type": "Duration"
                                 }
                               },
                               "properties": {
@@ -4942,6 +5047,28 @@
                                   0.10980392,
                                   0.10980392,
                                   1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.23529412
                                 ],
                                 "zoom": null,
                                 "round": null,
@@ -5056,9 +5183,7 @@
                           "trigger": {
                             "source": "Inherit",
                             "threshold": {
-                              "threshold_type": {
-                                "Below": 5.0
-                              },
+                              "threshold_type": "Always",
                               "amount_type": "Duration"
                             }
                           },
@@ -5100,8 +5225,13 @@
                             {
                               "trigger": {
                                 "ProgressThreshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
+                                  "threshold_type": {
+                                    "Between": [
+                                      0.01,
+                                      5.0
+                                    ]
+                                  },
+                                  "amount_type": "Duration"
                                 }
                               },
                               "properties": {
@@ -5110,6 +5240,28 @@
                                   0.10980392,
                                   0.10980392,
                                   1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.23529412
                                 ],
                                 "zoom": null,
                                 "round": null,
@@ -5224,9 +5376,7 @@
                           "trigger": {
                             "source": "Inherit",
                             "threshold": {
-                              "threshold_type": {
-                                "Below": 5.0
-                              },
+                              "threshold_type": "Always",
                               "amount_type": "Duration"
                             }
                           },
@@ -5268,8 +5418,13 @@
                             {
                               "trigger": {
                                 "ProgressThreshold": {
-                                  "threshold_type": "Missing",
-                                  "amount_type": "Intensity"
+                                  "threshold_type": {
+                                    "Between": [
+                                      0.01,
+                                      5.0
+                                    ]
+                                  },
+                                  "amount_type": "Duration"
                                 }
                               },
                               "properties": {
@@ -5278,6 +5433,28 @@
                                   0.10980392,
                                   0.10980392,
                                   1.0
+                                ],
+                                "zoom": null,
+                                "round": null,
+                                "border_size": null,
+                                "border_color": null
+                              }
+                            },
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Duration"
+                                }
+                              },
+                              "properties": {
+                                "tint": [
+                                  1.0,
+                                  1.0,
+                                  1.0,
+                                  0.23529412
                                 ],
                                 "zoom": null,
                                 "round": null,
