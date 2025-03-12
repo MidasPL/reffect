@@ -2747,7 +2747,7 @@
         },
         {
           "enabled": true,
-          "name": "Resources",
+          "name": "Generic Resources",
           "anchor": "Parent",
           "pos": [
             0.0,
@@ -2764,7 +2764,9 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": [],
+              "specs": [
+                "Guardian"
+              ],
               "weapons": [],
               "traits": [],
               "mounts": []
@@ -2923,6 +2925,767 @@
               "ticks": []
             }
           ]
+        },
+        {
+          "enabled": true,
+          "name": "Class-Specific",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Necromancer",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Necromancer",
+                    "Reaper",
+                    "Scourge",
+                    "Harbinger"
+                  ],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Scourge",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Scourge"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Shade 1",
+                      "anchor": "Parent",
+                      "pos": [
+                        150.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-earth-1.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 1 empty",
+                      "anchor": "Parent",
+                      "pos": [
+                        150.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Exact": 0.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-earth-0.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 2",
+                      "anchor": "Parent",
+                      "pos": [
+                        190.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 1.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-earth-1.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 2 empty",
+                      "anchor": "Parent",
+                      "pos": [
+                        190.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Between": [
+                              0.0,
+                              1.0
+                            ]
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-earth-0.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 3",
+                      "anchor": "Parent",
+                      "pos": [
+                        230.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 3.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-earth-1.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 3 empty",
+                      "anchor": "Parent",
+                      "pos": [
+                        230.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": {
+                            "Between": [
+                              0.0,
+                              2.0
+                            ]
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-earth-0.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Unnamed",
+                      "anchor": "Parent",
+                      "pos": [
+                        286.0,
+                        -515.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%i",
+                      "font": null,
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "None",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Lifeforce",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "lower_bound": 0.0,
+                  "progress_factor": 1.0,
+                  "fill": [
+                    1.0,
+                    0.9980358,
+                    0.55021834,
+                    1.0
+                  ],
+                  "background": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    0.17030567
+                  ],
+                  "border_size": 1.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "size": [
+                    530.0,
+                    15.0
+                  ],
+                  "align": "Center",
+                  "direction": "Right",
+                  "tick_unit": "Percent",
+                  "ticks": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Harbinger",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Harbinger"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Blight",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        43.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            62653
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Intensity",
+                      "max": 25,
+                      "lower_bound": 0.0,
+                      "progress_factor": 1.0,
+                      "fill": [
+                        0.4403798,
+                        0.32920808,
+                        0.90829694,
+                        1.0
+                      ],
+                      "background": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        0.17030567
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        530.0,
+                        15.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Blight Number",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        43.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            62653
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%i",
+                      "font": null,
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3075,7 +3838,23 @@
                     0.0,
                     1.0
                   ],
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "properties": {
+                        "tint": null,
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
                   "duration_bar": false,
                   "duration_text": false,
                   "stacks_text": false,
