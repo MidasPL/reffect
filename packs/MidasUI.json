@@ -2317,7 +2317,7 @@
     },
     {
       "enabled": true,
-      "name": "Frames",
+      "name": "Bars",
       "anchor": "Parent",
       "pos": [
         0.0,
@@ -3401,51 +3401,6 @@
                         32.0,
                         32.0
                       ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Unnamed",
-                      "anchor": "Parent",
-                      "pos": [
-                        286.0,
-                        -515.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": "SecondaryResource",
-                        "threshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Text",
-                      "text": "%i",
-                      "font": null,
-                      "align": "Center",
-                      "scale": 1.0,
-                      "color": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "decoration": "None",
-                      "conditions": []
                     }
                   ]
                 },
@@ -3682,6 +3637,838 @@
                       "conditions": []
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Revenant",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Revenant",
+                    "Herald",
+                    "Renegade",
+                    "Vindicator"
+                  ],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Spear",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Revenant",
+                        "Herald",
+                        "Renegade",
+                        "Vindicator"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Shade 1",
+                      "anchor": "Parent",
+                      "pos": [
+                        150.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            72962
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-air-1.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 2",
+                      "anchor": "Parent",
+                      "pos": [
+                        190.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            72962
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 1.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-air-1.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 2 empty",
+                      "anchor": "Parent",
+                      "pos": [
+                        190.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            72962
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": {
+                            "Between": [
+                              1.0,
+                              1.0
+                            ]
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-air-0.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 3",
+                      "anchor": "Parent",
+                      "pos": [
+                        230.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            72962
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": {
+                            "Above": 3.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-air-1.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shade 3 empty",
+                      "anchor": "Parent",
+                      "pos": [
+                        230.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            72962
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": {
+                            "Between": [
+                              1.0,
+                              2.0
+                            ]
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "File": "ele-air-0.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.5,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        32.0,
+                        32.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Crushig Abyss timer",
+                      "anchor": "Parent",
+                      "pos": [
+                        200.0,
+                        -73.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            72962
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 3,
+                      "lower_bound": 0.0,
+                      "progress_factor": 1.0,
+                      "fill": [
+                        0.5851526,
+                        0.0,
+                        1.0,
+                        1.0
+                      ],
+                      "background": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 5.0,
+                      "tick_color": [
+                        0.8165939,
+                        0.6000825,
+                        0.18899332,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        130.0,
+                        4.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": [
+                        0.25
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Primary Bar Combat",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": true,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "lower_bound": 0.0,
+                  "progress_factor": 1.0,
+                  "fill": [
+                    1.0,
+                    0.39301312,
+                    0.0,
+                    1.0
+                  ],
+                  "background": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    0.17030567
+                  ],
+                  "border_size": 1.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 10.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "properties": {
+                        "lower_bound": null,
+                        "progress_factor": null,
+                        "fill": [
+                          0.48034942,
+                          1.0,
+                          0.0,
+                          1.0
+                        ],
+                        "background": null,
+                        "border_size": null,
+                        "border_color": null,
+                        "tick_size": null,
+                        "tick_color": null
+                      }
+                    }
+                  ],
+                  "size": [
+                    530.0,
+                    15.0
+                  ],
+                  "align": "Center",
+                  "direction": "Right",
+                  "tick_unit": "Absolute",
+                  "ticks": [
+                    10.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Primary Bar OOC",
+                  "anchor": "Parent",
+                  "pos": [
+                    -132.5,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": false,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_kind": "Duration",
+                  "max": 25,
+                  "lower_bound": 0.0,
+                  "progress_factor": 1.0,
+                  "fill": [
+                    1.0,
+                    0.39301312,
+                    0.0,
+                    1.0
+                  ],
+                  "background": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    0.17030567
+                  ],
+                  "border_size": 1.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 10.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "properties": {
+                        "lower_bound": null,
+                        "progress_factor": null,
+                        "fill": [
+                          0.48034942,
+                          1.0,
+                          0.0,
+                          1.0
+                        ],
+                        "background": null,
+                        "border_size": null,
+                        "border_color": null,
+                        "tick_size": null,
+                        "tick_color": null
+                      }
+                    }
+                  ],
+                  "size": [
+                    265.0,
+                    15.0
+                  ],
+                  "align": "Center",
+                  "direction": "Right",
+                  "tick_unit": "Absolute",
+                  "ticks": [
+                    10.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Primary Bar OOC dummy",
+                  "anchor": "Parent",
+                  "pos": [
+                    132.5,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Always",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": false,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": [
+                        "None"
+                      ]
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_kind": "Intensity",
+                  "max": 0,
+                  "lower_bound": 0.0,
+                  "progress_factor": 1.0,
+                  "fill": [
+                    1.0,
+                    0.39301312,
+                    0.0,
+                    1.0
+                  ],
+                  "background": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    0.17030567
+                  ],
+                  "border_size": 1.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Below": 10.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "properties": {
+                        "lower_bound": null,
+                        "progress_factor": null,
+                        "fill": [
+                          0.48034942,
+                          1.0,
+                          0.0,
+                          1.0
+                        ],
+                        "background": null,
+                        "border_size": null,
+                        "border_color": null,
+                        "tick_size": null,
+                        "tick_color": null
+                      }
+                    }
+                  ],
+                  "size": [
+                    265.0,
+                    15.0
+                  ],
+                  "align": "Center",
+                  "direction": "Right",
+                  "tick_unit": "Absolute",
+                  "ticks": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Resource Number",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%r",
+                  "font": null,
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
                 }
               ]
             }
@@ -3963,10 +4750,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -4150,10 +4937,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -4337,10 +5124,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -4524,10 +5311,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -4746,10 +5533,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -4933,10 +5720,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -5120,10 +5907,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -5307,10 +6094,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -5494,10 +6281,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -5683,10 +6470,10 @@
                   },
                   "properties": {
                     "tint": [
-                      0.83137256,
-                      0.10980392,
-                      0.10980392,
-                      1.0
+                      0.7117904,
+                      0.41028738,
+                      0.0,
+                      0.78165936
                     ],
                     "zoom": null,
                     "round": null,
@@ -5870,10 +6657,10 @@
                   },
                   "properties": {
                     "tint": [
-                      0.83137256,
-                      0.10980392,
-                      0.10980392,
-                      1.0
+                      0.9650655,
+                      0.7079928,
+                      0.0,
+                      0.790393
                     ],
                     "zoom": null,
                     "round": null,
@@ -6090,10 +6877,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -6277,10 +7064,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -6464,10 +7251,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -6651,10 +7438,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -6838,10 +7625,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.83137256,
-                          0.10980392,
-                          0.10980392,
-                          1.0
+                          0.9650655,
+                          0.7079928,
+                          0.0,
+                          0.790393
                         ],
                         "zoom": null,
                         "round": null,
@@ -7065,6 +7852,228 @@
                       "animation": null,
                       "type": "Text",
                       "text": "%i",
+                      "font": null,
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Renegade",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "P5",
+                  "anchor": "Parent",
+                  "pos": [
+                    100.0,
+                    -55.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "SkillbarSlot": "Profession5"
+                    },
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Icon",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": "Automatic",
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 3.0,
+                      "border_color": [
+                        0.80786026,
+                        0.7799483,
+                        0.5961938,
+                        0.75545853
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Between": [
+                                  0.01,
+                                  5.0
+                                ]
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              0.9650655,
+                              0.7079928,
+                              0.0,
+                              0.790393
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        },
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              1.0,
+                              1.0,
+                              1.0,
+                              0.23529412
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        60.0,
+                        60.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "CD",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        15.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Missing",
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%r",
                       "font": null,
                       "align": "Center",
                       "scale": 1.0,
