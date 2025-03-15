@@ -54,6 +54,69 @@
       "members": [
         {
           "enabled": true,
+          "name": "Thorns",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "Buff": [
+                75432
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": {
+            "Url": "https://wiki.guildwars2.com/images/8/8a/Relic_of_Thorns.png"
+          },
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": true,
+          "size": [
+            50.0,
+            50.0
+          ]
+        },
+        {
+          "enabled": true,
           "name": "Fireworks",
           "anchor": "Parent",
           "pos": [
@@ -383,7 +446,8 @@
                 69795,
                 70282,
                 71132,
-                70767
+                70767,
+                75432
               ]
             },
             "threshold": {
