@@ -982,6 +982,258 @@
                       0.75686276
                     ]
                   }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2271,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2093,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2234,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2022,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2194,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2052,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2052,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2042,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2101,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
                 }
               ],
               "duration_bar": true,
@@ -1160,6 +1412,230 @@
                       "traits": [
                         {
                           "id": 2182,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2195,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2245,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2276,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2057,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2289,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2033,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 2080,
+                          "present": true
+                        }
+                      ],
+                      "mounts": []
+                    }
+                  },
+                  "properties": {
+                    "tint": null,
+                    "zoom": null,
+                    "round": null,
+                    "border_size": 3.0,
+                    "border_color": [
+                      0.80784315,
+                      0.78039217,
+                      0.59607846,
+                      0.75686276
+                    ]
+                  }
+                },
+                {
+                  "trigger": {
+                    "Player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [
+                        {
+                          "id": 1942,
                           "present": true
                         }
                       ],
