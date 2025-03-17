@@ -6226,6 +6226,271 @@
                   ]
                 }
               ]
+            },
+            {
+              "enabled": true,
+              "name": "Elementalist",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Elementalist",
+                    "Tempest",
+                    "Weaver",
+                    "Catalyst"
+                  ],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Catalyst",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Catalyst"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Energy",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        28.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 25,
+                      "lower_bound": 0.0,
+                      "progress_factor": 1.0,
+                      "fill": [
+                        1.0,
+                        0.39301312,
+                        0.0,
+                        1.0
+                      ],
+                      "background": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        0.17030567
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 3.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 9.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "properties": {
+                            "lower_bound": null,
+                            "progress_factor": null,
+                            "fill": [
+                              0.24017374,
+                              0.24017465,
+                              0.24017225,
+                              1.0
+                            ],
+                            "background": null,
+                            "border_size": null,
+                            "border_color": null,
+                            "tick_size": null,
+                            "tick_color": null
+                          }
+                        },
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Between": [
+                                  10.0,
+                                  19.0
+                                ]
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "properties": {
+                            "lower_bound": null,
+                            "progress_factor": null,
+                            "fill": [
+                              1.0,
+                              0.0,
+                              0.838428,
+                              1.0
+                            ],
+                            "background": null,
+                            "border_size": null,
+                            "border_color": null,
+                            "tick_size": null,
+                            "tick_color": null
+                          }
+                        },
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Above": 30.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "properties": {
+                            "lower_bound": null,
+                            "progress_factor": null,
+                            "fill": [
+                              1.0,
+                              0.0,
+                              0.0,
+                              1.0
+                            ],
+                            "background": null,
+                            "border_size": null,
+                            "border_color": null,
+                            "tick_size": null,
+                            "tick_color": null
+                          }
+                        }
+                      ],
+                      "size": [
+                        530.0,
+                        15.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Absolute",
+                      "ticks": [
+                        10.0,
+                        20.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Mesmer",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": []
             }
           ]
         },
@@ -6649,10 +6914,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -7159,10 +7424,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -7669,10 +7934,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -8179,10 +8444,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -8771,10 +9036,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -9328,10 +9593,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -9885,10 +10150,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -10442,10 +10707,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -10999,10 +11264,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -11558,10 +11823,10 @@
                   },
                   "properties": {
                     "tint": [
-                      0.7117904,
-                      0.41028738,
+                      0.7137255,
+                      0.4117647,
                       0.0,
-                      0.78165936
+                      0.50980395
                     ],
                     "zoom": null,
                     "round": null,
@@ -11745,10 +12010,10 @@
                   },
                   "properties": {
                     "tint": [
-                      0.9650655,
-                      0.7079928,
+                      0.9647059,
+                      0.70980394,
                       0.0,
-                      0.790393
+                      0.50980395
                     ],
                     "zoom": null,
                     "round": null,
@@ -11965,10 +12230,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -12152,10 +12417,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -12339,10 +12604,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -12526,10 +12791,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -12713,10 +12978,10 @@
                       },
                       "properties": {
                         "tint": [
-                          0.9650655,
-                          0.7079928,
+                          0.9647059,
+                          0.70980394,
                           0.0,
-                          0.790393
+                          0.50980395
                         ],
                         "zoom": null,
                         "round": null,
@@ -13092,10 +13357,10 @@
                           },
                           "properties": {
                             "tint": [
-                              0.9650655,
-                              0.7079928,
+                              0.9647059,
+                              0.70980394,
                               0.0,
-                              0.790393
+                              0.50980395
                             ],
                             "zoom": null,
                             "round": null,
@@ -13318,6 +13583,325 @@
                       "size": [
                         70.0,
                         70.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Elementalist",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Elementalist",
+                    "Tempest",
+                    "Weaver",
+                    "Catalyst"
+                  ],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Attunment",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Fire",
+                      "anchor": "Parent",
+                      "pos": [
+                        160.0,
+                        -55.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            5585
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": "Automatic",
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 3.0,
+                      "border_color": [
+                        0.80784315,
+                        0.78039217,
+                        0.59607846,
+                        0.75686276
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        60.0,
+                        60.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Water",
+                      "anchor": "Parent",
+                      "pos": [
+                        160.0,
+                        -55.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            5586
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": "Automatic",
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 3.0,
+                      "border_color": [
+                        0.80784315,
+                        0.78039217,
+                        0.59607846,
+                        0.75686276
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        60.0,
+                        60.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Air",
+                      "anchor": "Parent",
+                      "pos": [
+                        160.0,
+                        -55.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            5575
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": "Automatic",
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 3.0,
+                      "border_color": [
+                        0.80784315,
+                        0.78039217,
+                        0.59607846,
+                        0.75686276
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        60.0,
+                        60.0
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Earth",
+                      "anchor": "Parent",
+                      "pos": [
+                        160.0,
+                        -55.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            5580
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": "Automatic",
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 3.0,
+                      "border_color": [
+                        0.80784315,
+                        0.78039217,
+                        0.59607846,
+                        0.75686276
+                      ],
+                      "conditions": [],
+                      "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        60.0,
+                        60.0
                       ]
                     }
                   ]
