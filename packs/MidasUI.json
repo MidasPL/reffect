@@ -2842,6 +2842,331 @@
               "conditions": []
             }
           ]
+        },
+        {
+          "enabled": true,
+          "name": "Boons-Notification",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            -473.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Aegis",
+              "anchor": "Parent",
+              "pos": [
+                150.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Aegis",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        743
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": "Automatic",
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    50.0,
+                    50.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "AegisDuration",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    35.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        743
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%r",
+                  "font": null,
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Stability",
+              "anchor": "Parent",
+              "pos": [
+                -150.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Stability",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        1122
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": "Automatic",
+                  "tint": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": true,
+                  "size": [
+                    50.0,
+                    50.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "StabilityDuration",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    35.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        1122
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%r",
+                  "font": null,
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4031,6 +4356,51 @@
                   "direction": "Right",
                   "tick_unit": "Percent",
                   "ticks": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Lifeforce Number",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    28.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "SecondaryResource",
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%c/%f",
+                  "font": null,
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
                 },
                 {
                   "enabled": true,
@@ -7752,6 +8122,1156 @@
                           "conditions": []
                         }
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Thief",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                28.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Thief",
+                    "Daredevil",
+                    "Deadeye",
+                    "Specter"
+                  ],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Initiative",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    -4.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "PrimaryResource",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Bar",
+                  "progress_kind": "Intensity",
+                  "max": 12,
+                  "lower_bound": 0.0,
+                  "progress_factor": 1.0,
+                  "fill": [
+                    0.9475983,
+                    0.41379836,
+                    0.5536591,
+                    1.0
+                  ],
+                  "background": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.16862746
+                  ],
+                  "border_size": 1.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "tick_size": 1.0,
+                  "tick_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "size": [
+                    530.0,
+                    8.0
+                  ],
+                  "align": "Center",
+                  "direction": "Right",
+                  "tick_unit": "Absolute",
+                  "ticks": [
+                    1.0,
+                    2.0,
+                    3.0,
+                    4.0,
+                    5.0,
+                    6.0,
+                    7.0,
+                    8.0,
+                    9.0,
+                    75.04,
+                    10.0,
+                    11.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Deadeye",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Deadeye"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Malice",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        7.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Group",
+                      "members": [
+                        {
+                          "enabled": true,
+                          "name": "BQoBD",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [
+                                {
+                                  "id": 2093,
+                                  "present": true
+                                }
+                              ],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Bar",
+                          "progress_kind": "Intensity",
+                          "max": 5,
+                          "lower_bound": 0.0,
+                          "progress_factor": 1.0,
+                          "fill": [
+                            0.6462882,
+                            0.23988864,
+                            0.6125696,
+                            1.0
+                          ],
+                          "background": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.011764706
+                          ],
+                          "border_size": 1.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "tick_size": 2.0,
+                          "tick_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "lower_bound": null,
+                                "progress_factor": null,
+                                "fill": [
+                                  0.9372549,
+                                  0.7607843,
+                                  0.0,
+                                  1.0
+                                ],
+                                "background": null,
+                                "border_size": null,
+                                "border_color": null,
+                                "tick_size": null,
+                                "tick_color": null
+                              }
+                            }
+                          ],
+                          "size": [
+                            530.0,
+                            14.0
+                          ],
+                          "align": "Center",
+                          "direction": "Right",
+                          "tick_unit": "Absolute",
+                          "ticks": [
+                            1.0,
+                            2.0,
+                            3.0,
+                            4.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "FfE",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [
+                                {
+                                  "id": 2146,
+                                  "present": true
+                                }
+                              ],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Bar",
+                          "progress_kind": "Intensity",
+                          "max": 5,
+                          "lower_bound": 0.0,
+                          "progress_factor": 1.0,
+                          "fill": [
+                            0.6462882,
+                            0.23988864,
+                            0.6125696,
+                            1.0
+                          ],
+                          "background": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.011764706
+                          ],
+                          "border_size": 1.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "tick_size": 2.0,
+                          "tick_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 5.0
+                                  },
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "lower_bound": null,
+                                "progress_factor": null,
+                                "fill": [
+                                  0.9372549,
+                                  0.7607843,
+                                  0.0,
+                                  1.0
+                                ],
+                                "background": null,
+                                "border_size": null,
+                                "border_color": null,
+                                "tick_size": null,
+                                "tick_color": null
+                              }
+                            }
+                          ],
+                          "size": [
+                            530.0,
+                            14.0
+                          ],
+                          "align": "Center",
+                          "direction": "Right",
+                          "tick_unit": "Absolute",
+                          "ticks": [
+                            1.0,
+                            2.0,
+                            3.0,
+                            4.0
+                          ]
+                        },
+                        {
+                          "enabled": true,
+                          "name": "M7",
+                          "anchor": "Parent",
+                          "pos": [
+                            0.0,
+                            0.0
+                          ],
+                          "opacity": 1.0,
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": "Always",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [
+                                {
+                                  "id": 2111,
+                                  "present": true
+                                }
+                              ],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "animation": null,
+                          "type": "Bar",
+                          "progress_kind": "Intensity",
+                          "max": 7,
+                          "lower_bound": 0.0,
+                          "progress_factor": 1.0,
+                          "fill": [
+                            0.6462882,
+                            0.23988864,
+                            0.6125696,
+                            1.0
+                          ],
+                          "background": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            0.16862746
+                          ],
+                          "border_size": 1.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "tick_size": 2.0,
+                          "tick_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [
+                            {
+                              "trigger": {
+                                "ProgressThreshold": {
+                                  "threshold_type": {
+                                    "Above": 7.0
+                                  },
+                                  "amount_type": "Intensity"
+                                }
+                              },
+                              "properties": {
+                                "lower_bound": null,
+                                "progress_factor": null,
+                                "fill": [
+                                  0.93886465,
+                                  0.76257133,
+                                  0.0,
+                                  1.0
+                                ],
+                                "background": null,
+                                "border_size": null,
+                                "border_color": null,
+                                "tick_size": null,
+                                "tick_color": null
+                              }
+                            }
+                          ],
+                          "size": [
+                            530.0,
+                            14.0
+                          ],
+                          "align": "Center",
+                          "direction": "Right",
+                          "tick_unit": "Absolute",
+                          "ticks": [
+                            1.0,
+                            2.0,
+                            3.0,
+                            4.0,
+                            5.0,
+                            6.0
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Shadowsep",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    -180.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        13135
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Bar",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 25,
+                      "lower_bound": 0.0,
+                      "progress_factor": 1.0,
+                      "fill": [
+                        0.3267217,
+                        0.2227265,
+                        0.34934497,
+                        1.0
+                      ],
+                      "background": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        0.17030567
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        530.0,
+                        15.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Duration",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": {
+                            "Below": 5.0
+                          },
+                          "amount_type": "Duration"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%r",
+                      "font": null,
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Stealth",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    -165.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        13017,
+                        26142,
+                        32747,
+                        58026
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Bar",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 25,
+                      "lower_bound": 0.0,
+                      "progress_factor": 1.0,
+                      "fill": [
+                        0.20960677,
+                        0.2096049,
+                        0.209607,
+                        1.0
+                      ],
+                      "background": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        0.17030567
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        530.0,
+                        15.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Duration",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%r",
+                      "font": null,
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Revaled",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    -165.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        890
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Bar",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 25,
+                      "lower_bound": 0.0,
+                      "progress_factor": 1.0,
+                      "fill": [
+                        0.50980395,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "background": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        0.17030567
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        530.0,
+                        15.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Duration",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        0.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%r",
+                      "font": null,
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
+                    }
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Specter",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [
+                        "Specter"
+                      ],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Shroud",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        7.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Bar",
+                      "progress_kind": "Duration",
+                      "max": 25,
+                      "lower_bound": 0.0,
+                      "progress_factor": 1.0,
+                      "fill": [
+                        0.64705884,
+                        0.23921569,
+                        0.6117647,
+                        1.0
+                      ],
+                      "background": [
+                        1.0,
+                        0.99999,
+                        0.99999,
+                        0.17030567
+                      ],
+                      "border_size": 1.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "tick_size": 1.0,
+                      "tick_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [],
+                      "size": [
+                        530.0,
+                        15.0
+                      ],
+                      "align": "Center",
+                      "direction": "Right",
+                      "tick_unit": "Percent",
+                      "ticks": []
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Shroud Number",
+                      "anchor": "Parent",
+                      "pos": [
+                        0.0,
+                        7.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "SecondaryResource",
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Text",
+                      "text": "%c/%f",
+                      "font": null,
+                      "align": "Center",
+                      "scale": 1.0,
+                      "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "decoration": "Shadow",
+                      "conditions": []
                     }
                   ]
                 }
@@ -13324,7 +14844,7 @@
           "anchor": "Parent",
           "pos": [
             -200.0,
-            -70.0
+            -60.0
           ],
           "opacity": 1.0,
           "trigger": {
@@ -17153,6 +18673,230 @@
                       ],
                       "conditions": [],
                       "duration_bar": false,
+                      "duration_text": false,
+                      "stacks_text": false,
+                      "size": [
+                        60.0,
+                        60.0
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "Thief",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": "Inherit",
+                "threshold": {
+                  "threshold_type": "Always",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [
+                    "Thief",
+                    "Daredevil",
+                    "Deadeye",
+                    "Specter"
+                  ],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Kneel",
+                  "anchor": "Parent",
+                  "pos": [
+                    105.0,
+                    -55.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "Buff": [
+                        42869
+                      ]
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": {
+                    "Url": "https://wiki.guildwars2.com/images/5/56/Kneel.png"
+                  },
+                  "tint": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [],
+                  "duration_bar": false,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    60.0,
+                    60.0
+                  ]
+                },
+                {
+                  "enabled": true,
+                  "name": "Deadeye",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": "Inherit",
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "specs": [],
+                      "weapons": [],
+                      "traits": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Group",
+                  "members": [
+                    {
+                      "enabled": true,
+                      "name": "Deadeye's Gaze",
+                      "anchor": "Parent",
+                      "pos": [
+                        45.0,
+                        -55.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": {
+                          "Buff": [
+                            46333
+                          ]
+                        },
+                        "threshold": {
+                          "threshold_type": "Present",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "Icon",
+                      "icon": {
+                        "Url": "https://wiki.guildwars2.com/images/7/78/Deadeye%27s_Mark.png"
+                      },
+                      "tint": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                      ],
+                      "zoom": 1.0,
+                      "round": 0.0,
+                      "border_size": 0.0,
+                      "border_color": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                      ],
+                      "conditions": [
+                        {
+                          "trigger": {
+                            "ProgressThreshold": {
+                              "threshold_type": {
+                                "Below": 5.0
+                              },
+                              "amount_type": "Duration"
+                            }
+                          },
+                          "properties": {
+                            "tint": [
+                              0.9647059,
+                              0.70980394,
+                              0.0,
+                              0.50980395
+                            ],
+                            "zoom": null,
+                            "round": null,
+                            "border_size": null,
+                            "border_color": null
+                          }
+                        }
+                      ],
+                      "duration_bar": true,
                       "duration_text": false,
                       "stacks_text": false,
                       "size": [

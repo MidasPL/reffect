@@ -638,9 +638,7 @@
               },
               "animation": null,
               "type": "Icon",
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/e/e5/Aegis.png"
-              },
+              "icon": "Automatic",
               "tint": [
                 1.0,
                 1.0,
@@ -785,9 +783,7 @@
               },
               "animation": null,
               "type": "Icon",
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/a/ae/Stability.png"
-              },
+              "icon": "Automatic",
               "tint": [
                 1.0,
                 0.99999,
