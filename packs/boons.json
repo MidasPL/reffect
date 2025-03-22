@@ -3071,9 +3071,7 @@
               },
               "animation": null,
               "type": "Icon",
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png"
-              },
+              "icon": "Automatic",
               "tint": [
                 1.0,
                 0.99999,

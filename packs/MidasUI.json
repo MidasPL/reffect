@@ -1364,9 +1364,7 @@
               },
               "animation": null,
               "type": "Icon",
-              "icon": {
-                "Url": "https://wiki.guildwars2.com/images/4/4c/Alacrity.png"
-              },
+              "icon": "Automatic",
               "tint": [
                 1.0,
                 0.99999,
@@ -3265,7 +3263,33 @@
             0.0,
             1.0
           ],
-          "conditions": [],
+          "conditions": [
+            {
+              "trigger": {
+                "ProgressThreshold": {
+                  "threshold_type": {
+                    "Below": 50.0
+                  },
+                  "amount_type": "Percent"
+                }
+              },
+              "properties": {
+                "lower_bound": null,
+                "progress_factor": null,
+                "fill": null,
+                "background": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.27058825
+                ],
+                "border_size": null,
+                "border_color": null,
+                "tick_size": null,
+                "tick_color": null
+              }
+            }
+          ],
           "size": [
             530.0,
             5.0
