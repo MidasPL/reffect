@@ -3915,127 +3915,7 @@
                   "members": [
                     {
                       "enabled": true,
-                      "name": "Shade 1",
-                      "anchor": "Parent",
-                      "pos": [
-                        150.0,
-                        -90.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": "SecondaryResource",
-                        "threshold": {
-                          "threshold_type": "Present",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-earth-1.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Shade 1 empty",
-                      "anchor": "Parent",
-                      "pos": [
-                        150.0,
-                        -90.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": "SecondaryResource",
-                        "threshold": {
-                          "threshold_type": {
-                            "Exact": 0.0
-                          },
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-earth-0.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Shade 2",
+                      "name": "Shades",
                       "anchor": "Parent",
                       "pos": [
                         190.0,
@@ -4043,11 +3923,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "SecondaryResource",
+                        "source": "Inherit",
                         "threshold": {
-                          "threshold_type": {
-                            "Above": 1.0
-                          },
+                          "threshold_type": "Always",
                           "amount_type": "Intensity"
                         }
                       },
@@ -4066,37 +3944,167 @@
                         }
                       },
                       "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-earth-1.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
+                      "type": "IconList",
+                      "layout": "Static",
+                      "direction": "Horizontal",
                       "size": [
-                        32.0,
-                        32.0
+                        35.0,
+                        35.0
+                      ],
+                      "pad": 4.0,
+                      "icons": [
+                        {
+                          "enabled": true,
+                          "name": "Shade1",
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": {
+                                "Above": 1.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-earth-1.png"
+                          },
+                          "tint": [
+                            0.99999976,
+                            0.99999,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Shade2",
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": {
+                                "Above": 2.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-earth-1.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Shade3",
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": {
+                                "Above": 3.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-earth-1.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        }
                       ]
                     },
                     {
                       "enabled": true,
-                      "name": "Shade 2 empty",
+                      "name": "Shades missing",
                       "anchor": "Parent",
                       "pos": [
                         190.0,
@@ -4104,14 +4112,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "SecondaryResource",
+                        "source": "Inherit",
                         "threshold": {
-                          "threshold_type": {
-                            "Between": [
-                              0.0,
-                              1.0
-                            ]
-                          },
+                          "threshold_type": "Always",
                           "amount_type": "Intensity"
                         }
                       },
@@ -4130,157 +4133,160 @@
                         }
                       },
                       "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-earth-0.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
+                      "type": "IconList",
+                      "layout": "Static",
+                      "direction": "Horizontal",
                       "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Shade 3",
-                      "anchor": "Parent",
-                      "pos": [
-                        230.0,
-                        -90.0
+                        35.0,
+                        35.0
                       ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": "SecondaryResource",
-                        "threshold": {
-                          "threshold_type": {
-                            "Above": 3.0
+                      "pad": 4.0,
+                      "icons": [
+                        {
+                          "enabled": true,
+                          "name": "Shade1",
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
                           },
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-earth-1.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Shade 3 empty",
-                      "anchor": "Parent",
-                      "pos": [
-                        230.0,
-                        -90.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": "SecondaryResource",
-                        "threshold": {
-                          "threshold_type": {
-                            "Between": [
-                              0.0,
-                              2.0
-                            ]
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
                           },
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
+                          "icon": {
+                            "File": "ele-earth-0.png"
+                          },
+                          "tint": [
+                            0.99999976,
+                            0.99999,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
                         },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
+                        {
+                          "enabled": true,
+                          "name": "Shade2",
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 1.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-earth-0.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Shade3",
+                          "trigger": {
+                            "source": "SecondaryResource",
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 2.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-earth-0.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
                         }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-earth-0.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
                       ]
                     }
                   ]
@@ -4367,9 +4373,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "SecondaryResource",
+                    "source": "PrimaryResource",
                     "threshold": {
-                      "threshold_type": "Present",
+                      "threshold_type": "Always",
                       "amount_type": "Intensity"
                     }
                   },
@@ -4644,335 +4650,6 @@
                   "members": [
                     {
                       "enabled": true,
-                      "name": "Shade 1",
-                      "anchor": "Parent",
-                      "pos": [
-                        150.0,
-                        -90.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Buff": [
-                            72962
-                          ]
-                        },
-                        "threshold": {
-                          "threshold_type": "Present",
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-air-1.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Shade 2",
-                      "anchor": "Parent",
-                      "pos": [
-                        190.0,
-                        -90.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Buff": [
-                            72962
-                          ]
-                        },
-                        "threshold": {
-                          "threshold_type": {
-                            "Above": 1.0
-                          },
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-air-1.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Shade 2 empty",
-                      "anchor": "Parent",
-                      "pos": [
-                        190.0,
-                        -90.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Buff": [
-                            72962
-                          ]
-                        },
-                        "threshold": {
-                          "threshold_type": {
-                            "Between": [
-                              1.0,
-                              1.0
-                            ]
-                          },
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-air-0.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Shade 3",
-                      "anchor": "Parent",
-                      "pos": [
-                        230.0,
-                        -90.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Buff": [
-                            72962
-                          ]
-                        },
-                        "threshold": {
-                          "threshold_type": {
-                            "Above": 3.0
-                          },
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-air-1.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
-                      "name": "Shade 3 empty",
-                      "anchor": "Parent",
-                      "pos": [
-                        230.0,
-                        -90.0
-                      ],
-                      "opacity": 1.0,
-                      "trigger": {
-                        "source": {
-                          "Buff": [
-                            72962
-                          ]
-                        },
-                        "threshold": {
-                          "threshold_type": {
-                            "Between": [
-                              1.0,
-                              2.0
-                            ]
-                          },
-                          "amount_type": "Intensity"
-                        }
-                      },
-                      "filter": {
-                        "player": {
-                          "combat": null,
-                          "specs": [],
-                          "weapons": [],
-                          "traits": [],
-                          "mounts": []
-                        },
-                        "map": {
-                          "category": [],
-                          "whitelist": true,
-                          "ids": []
-                        }
-                      },
-                      "animation": null,
-                      "type": "Icon",
-                      "icon": {
-                        "File": "ele-air-0.png"
-                      },
-                      "tint": [
-                        1.0,
-                        1.0,
-                        1.0,
-                        1.0
-                      ],
-                      "zoom": 1.0,
-                      "round": 0.5,
-                      "border_size": 0.0,
-                      "border_color": [
-                        0.0,
-                        0.0,
-                        0.0,
-                        1.0
-                      ],
-                      "conditions": [],
-                      "duration_bar": false,
-                      "duration_text": false,
-                      "stacks_text": false,
-                      "size": [
-                        32.0,
-                        32.0
-                      ]
-                    },
-                    {
-                      "enabled": true,
                       "name": "Crushig Abyss timer",
                       "anchor": "Parent",
                       "pos": [
@@ -5047,6 +4724,406 @@
                       "tick_unit": "Percent",
                       "ticks": [
                         0.25
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Crushing Abyss stacks",
+                      "anchor": "Parent",
+                      "pos": [
+                        190.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "IconList",
+                      "layout": "Static",
+                      "direction": "Horizontal",
+                      "size": [
+                        35.0,
+                        35.0
+                      ],
+                      "pad": 4.0,
+                      "icons": [
+                        {
+                          "enabled": true,
+                          "name": "Stack1",
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                72962
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": {
+                                "Above": 1.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-air-1.png"
+                          },
+                          "tint": [
+                            0.99999976,
+                            0.99999,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Stack2",
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                72962
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": {
+                                "Above": 2.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-air-1.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Stack3",
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                72962
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": {
+                                "Above": 3.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-air-1.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        }
+                      ]
+                    },
+                    {
+                      "enabled": true,
+                      "name": "Crushing Abyss stacks missing",
+                      "anchor": "Parent",
+                      "pos": [
+                        190.0,
+                        -90.0
+                      ],
+                      "opacity": 1.0,
+                      "trigger": {
+                        "source": "Inherit",
+                        "threshold": {
+                          "threshold_type": "Always",
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "filter": {
+                        "player": {
+                          "combat": null,
+                          "specs": [],
+                          "weapons": [],
+                          "traits": [],
+                          "mounts": []
+                        },
+                        "map": {
+                          "category": [],
+                          "whitelist": true,
+                          "ids": []
+                        }
+                      },
+                      "animation": null,
+                      "type": "IconList",
+                      "layout": "Static",
+                      "direction": "Horizontal",
+                      "size": [
+                        35.0,
+                        35.0
+                      ],
+                      "pad": 4.0,
+                      "icons": [
+                        {
+                          "enabled": true,
+                          "name": "Sack1",
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                72962
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": "Missing",
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-air-0.png"
+                          },
+                          "tint": [
+                            0.99999976,
+                            0.99999,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Stack2",
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                72962
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 1.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-air-0.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        },
+                        {
+                          "enabled": true,
+                          "name": "Stack3",
+                          "trigger": {
+                            "source": {
+                              "Buff": [
+                                72962
+                              ]
+                            },
+                            "threshold": {
+                              "threshold_type": {
+                                "Below": 2.0
+                              },
+                              "amount_type": "Intensity"
+                            }
+                          },
+                          "filter": {
+                            "player": {
+                              "combat": null,
+                              "specs": [],
+                              "weapons": [],
+                              "traits": [],
+                              "mounts": []
+                            },
+                            "map": {
+                              "category": [],
+                              "whitelist": true,
+                              "ids": []
+                            }
+                          },
+                          "icon": {
+                            "File": "ele-air-0.png"
+                          },
+                          "tint": [
+                            1.0,
+                            1.0,
+                            1.0,
+                            1.0
+                          ],
+                          "zoom": 1.0,
+                          "round": 0.0,
+                          "border_size": 0.0,
+                          "border_color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                          ],
+                          "conditions": [],
+                          "duration_bar": false,
+                          "duration_text": false,
+                          "stacks_text": false
+                        }
                       ]
                     }
                   ]
@@ -6895,7 +6972,7 @@
                   "name": "Illusions",
                   "anchor": "Parent",
                   "pos": [
-                    180.0,
+                    190.0,
                     -90.0
                   ],
                   "opacity": 1.0,
@@ -6925,14 +7002,14 @@
                   "layout": "Static",
                   "direction": "Horizontal",
                   "size": [
-                    32.0,
-                    32.0
+                    35.0,
+                    35.0
                   ],
-                  "pad": 2.0,
+                  "pad": 4.0,
                   "icons": [
                     {
                       "enabled": true,
-                      "name": "blade1",
+                      "name": "Illusion1",
                       "trigger": {
                         "source": "PrimaryResource",
                         "threshold": {
@@ -6981,7 +7058,7 @@
                     },
                     {
                       "enabled": true,
-                      "name": "blade2",
+                      "name": "Illusion2",
                       "trigger": {
                         "source": "PrimaryResource",
                         "threshold": {
@@ -7030,7 +7107,7 @@
                     },
                     {
                       "enabled": true,
-                      "name": "blade3",
+                      "name": "Illusion3",
                       "trigger": {
                         "source": "PrimaryResource",
                         "threshold": {
@@ -7084,7 +7161,7 @@
                   "name": "Illusions Missing",
                   "anchor": "Parent",
                   "pos": [
-                    180.0,
+                    190.0,
                     -90.0
                   ],
                   "opacity": 1.0,
@@ -7114,14 +7191,14 @@
                   "layout": "Static",
                   "direction": "Horizontal",
                   "size": [
-                    32.0,
-                    32.0
+                    35.0,
+                    35.0
                   ],
-                  "pad": 2.0,
+                  "pad": 4.0,
                   "icons": [
                     {
                       "enabled": true,
-                      "name": "blade1",
+                      "name": "Illusion1",
                       "trigger": {
                         "source": "PrimaryResource",
                         "threshold": {
@@ -7147,8 +7224,8 @@
                         "File": "27px-Clone_inactive.png"
                       },
                       "tint": [
-                        0.9905298,
-                        0.6043956,
+                        0.99999976,
+                        0.99999,
                         1.0,
                         1.0
                       ],
@@ -7168,7 +7245,7 @@
                     },
                     {
                       "enabled": true,
-                      "name": "blade2",
+                      "name": "Illusion2",
                       "trigger": {
                         "source": "PrimaryResource",
                         "threshold": {
@@ -7217,7 +7294,7 @@
                     },
                     {
                       "enabled": true,
-                      "name": "blade3",
+                      "name": "Illusion3",
                       "trigger": {
                         "source": "PrimaryResource",
                         "threshold": {
