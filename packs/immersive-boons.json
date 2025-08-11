@@ -17,6 +17,21 @@
       "amount_type": "Intensity"
     }
   },
+  "filter": {
+    "player": {
+      "combat": null,
+      "specs": [],
+      "weapons": [],
+      "traits": [],
+      "mounts": []
+    },
+    "map": {
+      "category": [],
+      "whitelist": true,
+      "ids": []
+    }
+  },
+  "animation": null,
   "layer": 0,
   "elements": [
     {

@@ -17,6 +17,21 @@
       "amount_type": "Intensity"
     }
   },
+  "filter": {
+    "player": {
+      "combat": null,
+      "specs": [],
+      "weapons": [],
+      "traits": [],
+      "mounts": []
+    },
+    "map": {
+      "category": [],
+      "whitelist": true,
+      "ids": []
+    }
+  },
+  "animation": null,
   "layer": 0,
   "elements": [
     {
@@ -483,6 +498,204 @@
           ],
           "decoration": "Shadow",
           "conditions": []
+        },
+        {
+          "enabled": true,
+          "name": "Thorns",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            55.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Group",
+          "members": [
+            {
+              "enabled": true,
+              "name": "Primary Bar",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    75432
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Duration"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Bar",
+              "progress_kind": "Duration",
+              "max": 25.0,
+              "lower_bound": 0.0,
+              "upper_bound": 1.0,
+              "fill": [
+                1.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "background": [
+                1.0,
+                0.99999,
+                0.99999,
+                0.17030567
+              ],
+              "border_size": 1.0,
+              "border_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "tick_size": 1.0,
+              "tick_color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "conditions": [
+                {
+                  "trigger": {
+                    "ProgressThreshold": {
+                      "threshold_type": {
+                        "Above": 5.0
+                      },
+                      "amount_type": "Duration"
+                    }
+                  },
+                  "properties": {
+                    "lower_bound": null,
+                    "upper_bound": null,
+                    "fill": [
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "background": [
+                      1.0,
+                      1.0,
+                      1.0,
+                      0.0
+                    ],
+                    "border_size": null,
+                    "border_color": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "tick_size": null,
+                    "tick_color": null
+                  }
+                }
+              ],
+              "size": [
+                250.0,
+                15.0
+              ],
+              "align": "Center",
+              "direction": "Right",
+              "tick_unit": "Percent",
+              "ticks": []
+            },
+            {
+              "enabled": true,
+              "name": "Thorns duration text",
+              "anchor": "Parent",
+              "pos": [
+                0.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "Buff": [
+                    75432
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": {
+                    "Below": 5.0
+                  },
+                  "amount_type": "Duration"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "specs": [],
+                  "weapons": [],
+                  "traits": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Text",
+              "text": "%r",
+              "font": null,
+              "align": "Center",
+              "scale": 1.0,
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "decoration": "Shadow",
+              "conditions": []
+            }
+          ]
         }
       ]
     }
