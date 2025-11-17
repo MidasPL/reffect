@@ -11,7 +11,9 @@
   ],
   "opacity": 1.0,
   "trigger": {
-    "source": "Inherit",
+    "source": {
+      "type": "Inherit"
+    },
     "threshold": {
       "threshold_type": "Always",
       "amount_type": "Intensity"
@@ -44,7 +46,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -77,7 +81,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -111,7 +117,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     725
                   ]
                 },
@@ -193,7 +201,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     725
                   ]
                 },
@@ -243,7 +253,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -277,7 +289,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     740
                   ]
                 },
@@ -343,7 +357,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     740
                   ]
                 },
@@ -409,7 +425,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     740
                   ]
                 },
@@ -475,7 +493,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     740
                   ]
                 },
@@ -542,7 +562,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -576,7 +598,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     743
                   ]
                 },
@@ -658,7 +682,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     743
                   ]
                 },
@@ -708,7 +734,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -742,7 +770,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     1122
                   ]
                 },
@@ -824,7 +854,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     1122
                   ]
                 },
@@ -874,7 +906,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -908,7 +942,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     1187
                   ]
                 },
@@ -1270,7 +1306,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     1187
                   ]
                 },
@@ -1320,7 +1358,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -1354,7 +1394,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     30328
                   ]
                 },
@@ -1688,7 +1730,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     30328
                   ]
                 },
@@ -1738,7 +1782,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -1772,7 +1818,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     726
                   ]
                 },
@@ -1856,7 +1904,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     726
                   ]
                 },
@@ -1906,7 +1956,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -1940,7 +1992,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     717
                   ]
                 },
@@ -2022,7 +2076,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     717
                   ]
                 },
@@ -2072,7 +2128,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -2106,7 +2164,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     5974
                   ]
                 },
@@ -2167,7 +2227,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     5974
                   ]
                 },
@@ -2218,7 +2280,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 718,
                 17495,
                 17674
@@ -2256,7 +2320,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -2334,7 +2400,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
@@ -2382,7 +2450,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 26980,
                 69995
               ]
@@ -2419,7 +2489,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -2497,7 +2569,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
@@ -2545,7 +2619,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 873
               ]
             },
@@ -2581,7 +2657,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -2659,7 +2737,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
@@ -2707,7 +2787,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 719
               ]
             },
@@ -2743,7 +2825,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -2821,7 +2905,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
@@ -2868,7 +2954,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -2901,7 +2989,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -2935,7 +3025,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         743
                       ]
                     },
@@ -2996,7 +3088,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         743
                       ]
                     },
@@ -3046,7 +3140,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -3080,7 +3176,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         1122
                       ]
                     },
@@ -3141,7 +3239,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         1122
                       ]
                     },
@@ -3195,7 +3295,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -3228,7 +3330,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -3261,7 +3365,10 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Health",
+                "source": {
+                  "type": "Health",
+                  "combatant": "Player"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -3387,7 +3494,10 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Health",
+                "source": {
+                  "type": "Health",
+                  "combatant": "Player"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -3432,7 +3542,10 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Barrier",
+                "source": {
+                  "type": "Barrier",
+                  "combatant": "Player"
+                },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
@@ -3504,7 +3617,10 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Barrier",
+                "source": {
+                  "type": "Barrier",
+                  "combatant": "Player"
+                },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
@@ -3551,7 +3667,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Endurance",
+            "source": {
+              "type": "Endurance"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -3651,7 +3769,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -3686,7 +3806,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "PrimaryResource",
+                "source": {
+                  "type": "PrimaryResource"
+                },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
@@ -3758,7 +3880,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "SecondaryResource",
+                "source": {
+                  "type": "SecondaryResource"
+                },
                 "threshold": {
                   "threshold_type": "Present",
                   "amount_type": "Intensity"
@@ -3832,7 +3956,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -3865,7 +3991,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -3903,7 +4031,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -3938,7 +4068,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Always",
                           "amount_type": "Intensity"
@@ -3972,7 +4104,9 @@
                           "enabled": true,
                           "name": "Shade1",
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": {
                                 "Above": 1.0
@@ -4021,7 +4155,9 @@
                           "enabled": true,
                           "name": "Shade2",
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": {
                                 "Above": 2.0
@@ -4070,7 +4206,9 @@
                           "enabled": true,
                           "name": "Shade3",
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": {
                                 "Above": 3.0
@@ -4127,7 +4265,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Always",
                           "amount_type": "Intensity"
@@ -4161,7 +4301,9 @@
                           "enabled": true,
                           "name": "Shade1",
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": "Missing",
                               "amount_type": "Intensity"
@@ -4208,7 +4350,9 @@
                           "enabled": true,
                           "name": "Shade2",
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": {
                                 "Below": 1.0
@@ -4257,7 +4401,9 @@
                           "enabled": true,
                           "name": "Shade3",
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": {
                                 "Below": 2.0
@@ -4316,7 +4462,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "PrimaryResource",
+                    "source": {
+                      "type": "PrimaryResource"
+                    },
                     "threshold": {
                       "threshold_type": "Present",
                       "amount_type": "Intensity"
@@ -4388,7 +4536,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "PrimaryResource",
+                    "source": {
+                      "type": "PrimaryResource"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -4433,7 +4583,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -4469,7 +4621,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             62653
                           ]
                         },
@@ -4545,7 +4699,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             62653
                           ]
                         },
@@ -4597,7 +4753,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -4635,7 +4793,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -4674,7 +4834,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             72962
                           ]
                         },
@@ -4751,7 +4913,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Always",
                           "amount_type": "Intensity"
@@ -4786,7 +4950,9 @@
                           "name": "Stack1",
                           "trigger": {
                             "source": {
-                              "Buff": [
+                              "type": "Buff",
+                              "combatant": "Player",
+                              "ids": [
                                 72962
                               ]
                             },
@@ -4839,7 +5005,9 @@
                           "name": "Stack2",
                           "trigger": {
                             "source": {
-                              "Buff": [
+                              "type": "Buff",
+                              "combatant": "Player",
+                              "ids": [
                                 72962
                               ]
                             },
@@ -4892,7 +5060,9 @@
                           "name": "Stack3",
                           "trigger": {
                             "source": {
-                              "Buff": [
+                              "type": "Buff",
+                              "combatant": "Player",
+                              "ids": [
                                 72962
                               ]
                             },
@@ -4952,7 +5122,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Always",
                           "amount_type": "Intensity"
@@ -4987,7 +5159,9 @@
                           "name": "Sack1",
                           "trigger": {
                             "source": {
-                              "Buff": [
+                              "type": "Buff",
+                              "combatant": "Player",
+                              "ids": [
                                 72962
                               ]
                             },
@@ -5038,7 +5212,9 @@
                           "name": "Stack2",
                           "trigger": {
                             "source": {
-                              "Buff": [
+                              "type": "Buff",
+                              "combatant": "Player",
+                              "ids": [
                                 72962
                               ]
                             },
@@ -5091,7 +5267,9 @@
                           "name": "Stack3",
                           "trigger": {
                             "source": {
-                              "Buff": [
+                              "type": "Buff",
+                              "combatant": "Player",
+                              "ids": [
                                 72962
                               ]
                             },
@@ -5153,7 +5331,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "PrimaryResource",
+                    "source": {
+                      "type": "PrimaryResource"
+                    },
                     "threshold": {
                       "threshold_type": "Present",
                       "amount_type": "Intensity"
@@ -5253,7 +5433,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "PrimaryResource",
+                    "source": {
+                      "type": "PrimaryResource"
+                    },
                     "threshold": {
                       "threshold_type": "Present",
                       "amount_type": "Intensity"
@@ -5353,7 +5535,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Always",
+                    "source": {
+                      "type": "Always"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -5453,7 +5637,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "PrimaryResource",
+                    "source": {
+                      "type": "PrimaryResource"
+                    },
                     "threshold": {
                       "threshold_type": "Present",
                       "amount_type": "Intensity"
@@ -5498,7 +5684,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -5534,7 +5722,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             27737
                           ]
                         },
@@ -5570,7 +5760,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -5642,7 +5834,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -5690,7 +5884,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             51653
                           ]
                         },
@@ -5726,7 +5922,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -5798,7 +5996,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -5857,7 +6057,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -5906,7 +6108,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -5942,7 +6146,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             62811
                           ]
                         },
@@ -5978,7 +6184,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -6050,7 +6258,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -6109,7 +6319,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -6160,7 +6372,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -6199,7 +6413,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         21660
                       ]
                     },
@@ -6235,7 +6451,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -6307,7 +6525,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -6355,7 +6575,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         5863
                       ]
                     },
@@ -6391,7 +6613,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -6463,7 +6687,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -6510,7 +6736,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "SecondaryResource",
+                    "source": {
+                      "type": "SecondaryResource"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -6545,7 +6773,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -6674,7 +6904,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -6723,7 +6955,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -6761,7 +6995,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -6796,7 +7032,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "SecondaryResource",
+                        "source": {
+                          "type": "SecondaryResource"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -6954,7 +7192,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -6992,7 +7232,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -7026,7 +7268,9 @@
                       "enabled": true,
                       "name": "Illusion1",
                       "trigger": {
-                        "source": "PrimaryResource",
+                        "source": {
+                          "type": "PrimaryResource"
+                        },
                         "threshold": {
                           "threshold_type": {
                             "Above": 1.0
@@ -7075,7 +7319,9 @@
                       "enabled": true,
                       "name": "Illusion2",
                       "trigger": {
-                        "source": "PrimaryResource",
+                        "source": {
+                          "type": "PrimaryResource"
+                        },
                         "threshold": {
                           "threshold_type": {
                             "Above": 2.0
@@ -7124,7 +7370,9 @@
                       "enabled": true,
                       "name": "Illusion3",
                       "trigger": {
-                        "source": "PrimaryResource",
+                        "source": {
+                          "type": "PrimaryResource"
+                        },
                         "threshold": {
                           "threshold_type": {
                             "Above": 3.0
@@ -7181,7 +7429,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -7215,7 +7465,9 @@
                       "enabled": true,
                       "name": "Illusion1",
                       "trigger": {
-                        "source": "PrimaryResource",
+                        "source": {
+                          "type": "PrimaryResource"
+                        },
                         "threshold": {
                           "threshold_type": "Missing",
                           "amount_type": "Intensity"
@@ -7262,7 +7514,9 @@
                       "enabled": true,
                       "name": "Illusion2",
                       "trigger": {
-                        "source": "PrimaryResource",
+                        "source": {
+                          "type": "PrimaryResource"
+                        },
                         "threshold": {
                           "threshold_type": {
                             "Below": 1.0
@@ -7311,7 +7565,9 @@
                       "enabled": true,
                       "name": "Illusion3",
                       "trigger": {
-                        "source": "PrimaryResource",
+                        "source": {
+                          "type": "PrimaryResource"
+                        },
                         "threshold": {
                           "threshold_type": {
                             "Below": 2.0
@@ -7369,7 +7625,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         10243
                       ]
                     },
@@ -7405,7 +7663,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -7477,7 +7737,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -7524,7 +7786,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -7558,7 +7822,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             10198
                           ]
                         },
@@ -7594,7 +7860,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -7666,7 +7934,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -7725,7 +7995,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -7773,7 +8045,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             16553
                           ]
                         },
@@ -7809,7 +8083,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -7881,7 +8157,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -7940,7 +8218,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -7985,7 +8265,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -8034,7 +8316,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -8070,7 +8354,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             30136
                           ]
                         },
@@ -8106,7 +8392,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -8178,7 +8466,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "Inherit",
+                            "source": {
+                              "type": "Inherit"
+                            },
                             "threshold": {
                               "threshold_type": "Present",
                               "amount_type": "Intensity"
@@ -8229,7 +8519,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -8267,7 +8559,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "PrimaryResource",
+                    "source": {
+                      "type": "PrimaryResource"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -8352,7 +8646,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -8387,7 +8683,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Always",
                           "amount_type": "Intensity"
@@ -8420,7 +8718,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": "Always",
                               "amount_type": "Intensity"
@@ -8528,7 +8828,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": "Always",
                               "amount_type": "Intensity"
@@ -8636,7 +8938,9 @@
                           ],
                           "opacity": 1.0,
                           "trigger": {
-                            "source": "SecondaryResource",
+                            "source": {
+                              "type": "SecondaryResource"
+                            },
                             "threshold": {
                               "threshold_type": "Always",
                               "amount_type": "Intensity"
@@ -8751,7 +9055,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         13135
                       ]
                     },
@@ -8787,7 +9093,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -8859,7 +9167,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": {
                             "Below": 5.0
@@ -8909,7 +9219,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         13017,
                         26142,
                         32747,
@@ -8948,7 +9260,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -9020,7 +9334,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -9068,7 +9384,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         890
                       ]
                     },
@@ -9104,7 +9422,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -9176,7 +9496,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -9223,7 +9545,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -9258,7 +9582,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "SecondaryResource",
+                        "source": {
+                          "type": "SecondaryResource"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -9330,7 +9656,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "SecondaryResource",
+                        "source": {
+                          "type": "SecondaryResource"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -9381,7 +9709,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -9414,7 +9744,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -9449,7 +9781,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "SecondaryResource",
+                    "source": {
+                      "type": "SecondaryResource"
+                    },
                     "threshold": {
                       "threshold_type": "Present",
                       "amount_type": "Intensity"
@@ -9527,7 +9861,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -9560,7 +9896,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -9594,7 +9932,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Weapon1"
+                  "type": "SkillbarSlot",
+                  "slot": "Weapon1"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -9628,7 +9967,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -9704,7 +10045,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Weapon2"
+                  "type": "SkillbarSlot",
+                  "slot": "Weapon2"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -9738,7 +10080,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -9843,7 +10187,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -9888,7 +10234,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -9935,7 +10283,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -9968,7 +10318,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -10040,7 +10392,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -10112,7 +10466,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -10184,7 +10540,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -10261,7 +10619,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Weapon3"
+                  "type": "SkillbarSlot",
+                  "slot": "Weapon3"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -10295,7 +10654,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -10400,7 +10761,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -10445,7 +10808,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -10492,7 +10857,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -10525,7 +10892,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -10597,7 +10966,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -10669,7 +11040,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -10741,7 +11114,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -10818,7 +11193,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Weapon4"
+                  "type": "SkillbarSlot",
+                  "slot": "Weapon4"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -10852,7 +11228,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -10957,7 +11335,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -11002,7 +11382,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -11049,7 +11431,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -11082,7 +11466,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -11154,7 +11540,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -11226,7 +11614,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -11298,7 +11688,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -11375,7 +11767,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Weapon5"
+                  "type": "SkillbarSlot",
+                  "slot": "Weapon5"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -11409,7 +11802,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -11514,7 +11909,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -11559,7 +11956,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -11606,7 +12005,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -11639,7 +12040,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -11711,7 +12114,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -11783,7 +12188,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -11855,7 +12262,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -11933,7 +12342,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -11967,7 +12378,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Heal"
+                  "type": "SkillbarSlot",
+                  "slot": "Heal"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -12001,7 +12413,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -12106,7 +12520,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -12151,7 +12567,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -12198,7 +12616,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -12231,7 +12651,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -12303,7 +12725,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -12375,7 +12799,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -12447,7 +12873,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -12524,7 +12952,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Utility1"
+                  "type": "SkillbarSlot",
+                  "slot": "Utility1"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -12558,7 +12987,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -12663,7 +13094,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -12708,7 +13141,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -12755,7 +13190,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -12788,7 +13225,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -12860,7 +13299,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -12932,7 +13373,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -13004,7 +13447,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -13081,7 +13526,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Utility2"
+                  "type": "SkillbarSlot",
+                  "slot": "Utility2"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -13115,7 +13561,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -13220,7 +13668,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -13265,7 +13715,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -13312,7 +13764,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -13345,7 +13799,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -13417,7 +13873,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -13489,7 +13947,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -13561,7 +14021,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -13638,7 +14100,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Utility3"
+                  "type": "SkillbarSlot",
+                  "slot": "Utility3"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -13672,7 +14135,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -13777,7 +14242,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -13822,7 +14289,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -13869,7 +14338,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -13902,7 +14373,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -13974,7 +14447,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -14046,7 +14521,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -14118,7 +14595,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -14195,7 +14674,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Elite"
+                  "type": "SkillbarSlot",
+                  "slot": "Elite"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -14229,7 +14709,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -14334,7 +14816,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -14379,7 +14863,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -14426,7 +14912,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -14459,7 +14947,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -14531,7 +15021,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -14603,7 +15095,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -14675,7 +15169,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -14754,7 +15250,8 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "SkillbarSlot": "WeaponSwap"
+              "type": "SkillbarSlot",
+              "slot": "WeaponSwap"
             },
             "threshold": {
               "threshold_type": "Always",
@@ -14788,7 +15285,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -14893,7 +15392,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Missing",
                   "amount_type": "Duration"
@@ -14941,7 +15442,8 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "SkillbarSlot": "SpecialAction"
+              "type": "SkillbarSlot",
+              "slot": "SpecialAction"
             },
             "threshold": {
               "threshold_type": "Always",
@@ -14975,7 +15477,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -15080,7 +15584,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Missing",
                   "amount_type": "Duration"
@@ -15127,7 +15633,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -15161,7 +15669,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Profession1"
+                  "type": "SkillbarSlot",
+                  "slot": "Profession1"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -15195,7 +15704,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -15300,7 +15811,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -15345,7 +15858,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -15392,7 +15907,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -15425,7 +15942,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -15497,7 +16016,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -15569,7 +16090,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -15641,7 +16164,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -15718,7 +16243,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Profession2"
+                  "type": "SkillbarSlot",
+                  "slot": "Profession2"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -15752,7 +16278,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -15857,7 +16385,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -15902,7 +16432,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -15949,7 +16481,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -15982,7 +16516,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -16054,7 +16590,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -16126,7 +16664,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -16198,7 +16738,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -16275,7 +16817,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Profession3"
+                  "type": "SkillbarSlot",
+                  "slot": "Profession3"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -16309,7 +16852,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -16414,7 +16959,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -16459,7 +17006,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -16506,7 +17055,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -16539,7 +17090,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -16611,7 +17164,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -16683,7 +17238,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -16755,7 +17312,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -16832,7 +17391,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Profession4"
+                  "type": "SkillbarSlot",
+                  "slot": "Profession4"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -16866,7 +17426,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -16971,7 +17533,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -17016,7 +17580,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -17063,7 +17629,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -17096,7 +17664,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -17168,7 +17738,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -17240,7 +17812,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -17312,7 +17886,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -17389,7 +17965,8 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "SkillbarSlot": "Profession5"
+                  "type": "SkillbarSlot",
+                  "slot": "Profession5"
                 },
                 "threshold": {
                   "threshold_type": "Always",
@@ -17423,7 +18000,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -17528,7 +18107,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Missing",
                       "amount_type": "Duration"
@@ -17573,7 +18154,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": {
                         "Above": 2.0
@@ -17620,7 +18203,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -17653,7 +18238,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -17725,7 +18312,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -17797,7 +18386,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -17869,7 +18460,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Present",
                           "amount_type": "Intensity"
@@ -17947,7 +18540,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -17980,7 +18575,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -18013,7 +18610,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -18049,7 +18648,8 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "SkillbarSlot": "Profession1"
+                          "type": "SkillbarSlot",
+                          "slot": "Profession1"
                         },
                         "threshold": {
                           "threshold_type": "Always",
@@ -18099,7 +18699,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -18138,7 +18740,8 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "SkillbarSlot": "Profession5"
+                      "type": "SkillbarSlot",
+                      "slot": "Profession5"
                     },
                     "threshold": {
                       "threshold_type": "Always",
@@ -18172,7 +18775,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Always",
                           "amount_type": "Intensity"
@@ -18277,7 +18882,9 @@
                       ],
                       "opacity": 1.0,
                       "trigger": {
-                        "source": "Inherit",
+                        "source": {
+                          "type": "Inherit"
+                        },
                         "threshold": {
                           "threshold_type": "Missing",
                           "amount_type": "Duration"
@@ -18326,7 +18933,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -18364,7 +18973,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -18400,7 +19011,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             68612,
                             72040
                           ]
@@ -18467,7 +19080,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -18505,7 +19120,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -18539,7 +19156,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             5585
                           ]
                         },
@@ -18600,7 +19219,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             5586
                           ]
                         },
@@ -18661,7 +19282,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             5575
                           ]
                         },
@@ -18722,7 +19345,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             5580
                           ]
                         },
@@ -18786,7 +19411,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -18825,7 +19452,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         42869
                       ]
                     },
@@ -18887,7 +19516,9 @@
                   ],
                   "opacity": 1.0,
                   "trigger": {
-                    "source": "Inherit",
+                    "source": {
+                      "type": "Inherit"
+                    },
                     "threshold": {
                       "threshold_type": "Always",
                       "amount_type": "Intensity"
@@ -18921,7 +19552,9 @@
                       "opacity": 1.0,
                       "trigger": {
                         "source": {
-                          "Buff": [
+                          "type": "Buff",
+                          "combatant": "Player",
+                          "ids": [
                             46333
                           ]
                         },

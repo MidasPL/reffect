@@ -11,7 +11,9 @@
   ],
   "opacity": 1.0,
   "trigger": {
-    "source": "Inherit",
+    "source": {
+      "type": "Inherit"
+    },
     "threshold": {
       "threshold_type": "Always",
       "amount_type": "Intensity"
@@ -44,7 +46,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -77,7 +81,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -111,7 +117,9 @@
               "opacity": 0.25,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     718,
                     17495,
                     17674
@@ -176,7 +184,9 @@
               "opacity": 0.8,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     718,
                     17495,
                     17674
@@ -227,7 +237,9 @@
               "opacity": 0.2,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     718,
                     17495,
                     17674
@@ -292,7 +304,9 @@
               "opacity": 0.15,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     718,
                     17495,
                     17674
@@ -360,7 +374,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -395,7 +411,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -429,7 +447,9 @@
               "opacity": 0.9,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     743,
                     2785,
                     5640,
@@ -504,7 +524,9 @@
               "opacity": 0.8,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     743,
                     2785,
                     5640,
@@ -568,7 +590,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -601,7 +625,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -636,7 +662,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -670,7 +698,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         726
                       ]
                     },
@@ -733,7 +763,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         726
                       ]
                     },
@@ -783,7 +815,9 @@
               ],
               "opacity": 1.0,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -817,7 +851,9 @@
                   "opacity": 0.5,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         726
                       ]
                     },
@@ -885,7 +921,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -920,7 +958,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -954,7 +994,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     726
                   ]
                 },
@@ -1017,7 +1059,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     726
                   ]
                 },
@@ -1066,7 +1110,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     726
                   ]
                 },
@@ -1135,7 +1181,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -1168,7 +1216,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -1201,7 +1251,9 @@
               ],
               "opacity": 0.8,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -1235,7 +1287,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         1122
                       ]
                     },
@@ -1301,7 +1355,9 @@
               ],
               "opacity": 0.8,
               "trigger": {
-                "source": "Inherit",
+                "source": {
+                  "type": "Inherit"
+                },
                 "threshold": {
                   "threshold_type": "Always",
                   "amount_type": "Intensity"
@@ -1335,7 +1391,9 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "Buff": [
+                      "type": "Buff",
+                      "combatant": "Player",
+                      "ids": [
                         1122
                       ]
                     },
@@ -1402,7 +1460,9 @@
               "opacity": 0.8,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     1122
                   ]
                 },

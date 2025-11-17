@@ -11,7 +11,9 @@
   ],
   "opacity": 1.0,
   "trigger": {
-    "source": "Inherit",
+    "source": {
+      "type": "Inherit"
+    },
     "threshold": {
       "threshold_type": "Always",
       "amount_type": "Intensity"
@@ -44,7 +46,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Inherit",
+        "source": {
+          "type": "Inherit"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -78,7 +82,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 75432
               ]
             },
@@ -141,7 +147,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 76128
               ]
             },
@@ -202,7 +210,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 76326
               ]
             },
@@ -263,7 +273,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 69855
               ]
             },
@@ -317,6 +329,69 @@
         },
         {
           "enabled": true,
+          "name": "Claw",
+          "anchor": "Parent",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": {
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
+                73955
+              ]
+            },
+            "threshold": {
+              "threshold_type": "Present",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "weapons": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "Icon",
+          "icon": "Automatic",
+          "tint": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "zoom": 1.0,
+          "round": 0.0,
+          "border_size": 0.0,
+          "border_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "conditions": [],
+          "duration_bar": true,
+          "duration_text": false,
+          "stacks_text": false,
+          "size": [
+            50.0,
+            50.0
+          ]
+        },
+        {
+          "enabled": true,
           "name": "Aristocracy",
           "anchor": "Parent",
           "pos": [
@@ -326,7 +401,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 69795
               ]
             },
@@ -389,7 +466,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 70282
               ]
             },
@@ -452,7 +531,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 71132
               ]
             },
@@ -515,7 +596,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 70767
               ]
             },
@@ -578,7 +661,9 @@
           "opacity": 1.0,
           "trigger": {
             "source": {
-              "Buff": [
+              "type": "Buff",
+              "combatant": "Player",
+              "ids": [
                 69855,
                 69795,
                 70282,
@@ -631,7 +716,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -665,7 +752,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     75432
                   ]
                 },
@@ -777,7 +866,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     75432
                   ]
                 },
@@ -829,7 +920,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Inherit",
+            "source": {
+              "type": "Inherit"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -863,7 +956,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     71711
                   ]
                 },
@@ -924,7 +1019,9 @@
               "opacity": 1.0,
               "trigger": {
                 "source": {
-                  "Buff": [
+                  "type": "Buff",
+                  "combatant": "Player",
+                  "ids": [
                     71431
                   ]
                 },

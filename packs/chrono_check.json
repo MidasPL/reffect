@@ -11,7 +11,9 @@
   ],
   "opacity": 1.0,
   "trigger": {
-    "source": "Inherit",
+    "source": {
+      "type": "Inherit"
+    },
     "threshold": {
       "threshold_type": "Always",
       "amount_type": "Intensity"
@@ -44,7 +46,9 @@
       ],
       "opacity": 1.0,
       "trigger": {
-        "source": "Always",
+        "source": {
+          "type": "Always"
+        },
         "threshold": {
           "threshold_type": "Always",
           "amount_type": "Intensity"
@@ -79,7 +83,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Always",
+            "source": {
+              "type": "Always"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
@@ -143,7 +149,9 @@
           ],
           "opacity": 1.0,
           "trigger": {
-            "source": "Always",
+            "source": {
+              "type": "Always"
+            },
             "threshold": {
               "threshold_type": "Always",
               "amount_type": "Intensity"
