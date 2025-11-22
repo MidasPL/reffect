@@ -1,6 +1,6 @@
 {
   "schema": "v1",
-  "enabled": false,
+  "enabled": true,
   "name": "MidasUI",
   "anchor": {
     "Screen": "Center"
@@ -625,7 +625,9 @@
               },
               "animation": null,
               "type": "Icon",
-              "icon": "Automatic",
+              "icon": {
+                "File": "BlueAegis32.png"
+              },
               "tint": [
                 1.0,
                 1.0,
@@ -797,7 +799,9 @@
               },
               "animation": null,
               "type": "Icon",
-              "icon": "Automatic",
+              "icon": {
+                "File": "BlueStabi32.png"
+              },
               "tint": [
                 1.0,
                 0.99999,
@@ -9759,7 +9763,8 @@
                   "weapons": [],
                   "traits": [],
                   "mounts": [
-                    "Skyscale"
+                    "Skyscale",
+                    "SiegeTurtle"
                   ]
                 },
                 "map": {
@@ -9782,10 +9787,10 @@
                   "opacity": 1.0,
                   "trigger": {
                     "source": {
-                      "type": "SecondaryResource"
+                      "type": "PrimaryResource"
                     },
                     "threshold": {
-                      "threshold_type": "Present",
+                      "threshold_type": "Always",
                       "amount_type": "Intensity"
                     }
                   },
@@ -9805,7 +9810,7 @@
                   },
                   "animation": null,
                   "type": "Bar",
-                  "progress_kind": "Duration",
+                  "progress_kind": "Intensity",
                   "max": 25.0,
                   "lower_bound": 0.0,
                   "upper_bound": 1.0,
@@ -10000,27 +10005,78 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
                     {
                       "trigger": {
-                        "ProgressThreshold": {
-                          "threshold_type": "Always",
-                          "amount_type": "Intensity"
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5895196,
+                          0.5895137,
+                          0.5895137,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29694325,
+                          0.29694027,
+                          0.29694027,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "AutoAttack"
+                          ],
+                          "condition": "Any"
                         }
                       },
                       "properties": {
                         "tint": null,
                         "zoom": null,
                         "round": null,
-                        "border_size": null,
-                        "border_color": null
+                        "border_size": 2.0,
+                        "border_color": [
+                          0.9475983,
+                          0.8987851,
+                          0.5710418,
+                          1.0
+                        ]
                       }
                     }
                   ],
@@ -10113,11 +10169,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -10164,6 +10220,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5895196,
+                          0.5895137,
+                          0.5895137,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29694325,
+                          0.29694027,
+                          0.29694027,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -10687,11 +10787,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -10738,6 +10838,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -11261,11 +11405,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -11312,6 +11456,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -11835,11 +12023,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -11886,6 +12074,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -12446,11 +12678,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -12497,6 +12729,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -13020,11 +13296,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -13071,6 +13347,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -13594,11 +13914,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -13645,6 +13965,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -14168,11 +14532,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -14219,6 +14583,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -14742,11 +15150,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -14793,6 +15201,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -15564,6 +16016,50 @@
                     "border_size": null,
                     "border_color": null
                   }
+                },
+                {
+                  "trigger": {
+                    "AbilityState": {
+                      "states": [
+                        "Pending"
+                      ],
+                      "condition": "Any"
+                    }
+                  },
+                  "properties": {
+                    "tint": [
+                      0.5882353,
+                      0.5882353,
+                      0.5882353,
+                      1.0
+                    ],
+                    "zoom": null,
+                    "round": null,
+                    "border_size": null,
+                    "border_color": null
+                  }
+                },
+                {
+                  "trigger": {
+                    "AbilityState": {
+                      "states": [
+                        "Pressed"
+                      ],
+                      "condition": "Any"
+                    }
+                  },
+                  "properties": {
+                    "tint": [
+                      0.29803923,
+                      0.29803923,
+                      0.29803923,
+                      1.0
+                    ],
+                    "zoom": null,
+                    "round": 0.1499,
+                    "border_size": null,
+                    "border_color": null
+                  }
                 }
               ],
               "duration_bar": false,
@@ -15737,11 +16233,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -15788,6 +16284,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -16311,11 +16851,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -16362,6 +16902,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -16885,11 +17469,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -16936,6 +17520,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -17459,11 +18087,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -17510,6 +18138,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
@@ -18033,11 +18705,11 @@
                   ],
                   "zoom": 1.0,
                   "round": 0.0,
-                  "border_size": 0.0,
+                  "border_size": 1.0,
                   "border_color": [
-                    0.0,
-                    0.0,
-                    0.0,
+                    0.80784315,
+                    0.78039217,
+                    0.59607846,
                     1.0
                   ],
                   "conditions": [
@@ -18084,6 +18756,50 @@
                         ],
                         "zoom": null,
                         "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pending"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.5882353,
+                          0.5882353,
+                          0.5882353,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "AbilityState": {
+                          "states": [
+                            "Pressed"
+                          ],
+                          "condition": "Any"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          0.29803923,
+                          0.29803923,
+                          0.29803923,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": 0.1499,
                         "border_size": null,
                         "border_color": null
                       }
