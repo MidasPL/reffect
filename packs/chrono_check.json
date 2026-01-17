@@ -22,9 +22,17 @@
   "filter": {
     "player": {
       "combat": null,
-      "specs": [],
       "weapons": [],
+      "weapon_mode": "Any",
+      "sigils": [],
+      "sigil_mode": "Any",
+      "relics": [],
       "traits": [],
+      "trait_mode": "All",
+      "specs": [],
+      "skill_selections": [],
+      "skill_selections_mode": "All",
+      "prof_selections": [],
       "mounts": []
     },
     "map": {
@@ -57,11 +65,19 @@
       "filter": {
         "player": {
           "combat": null,
+          "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
+          "traits": [],
+          "trait_mode": "All",
           "specs": [
             "Chronomancer"
           ],
-          "weapons": [],
-          "traits": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
           "mounts": []
         },
         "map": {
@@ -94,14 +110,22 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": [],
               "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
               "traits": [
                 {
                   "id": 1942,
                   "present": true
                 }
               ],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
               "mounts": []
             },
             "map": {
@@ -160,14 +184,22 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": [],
               "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
               "traits": [
                 {
                   "id": 2022,
                   "present": true
                 }
               ],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
               "mounts": []
             },
             "map": {

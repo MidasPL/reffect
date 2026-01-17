@@ -22,9 +22,17 @@
   "filter": {
     "player": {
       "combat": null,
-      "specs": [],
       "weapons": [],
+      "weapon_mode": "Any",
+      "sigils": [],
+      "sigil_mode": "Any",
+      "relics": [],
       "traits": [],
+      "trait_mode": "All",
+      "specs": [],
+      "skill_selections": [],
+      "skill_selections_mode": "All",
+      "prof_selections": [],
       "mounts": []
     },
     "map": {
@@ -57,9 +65,17 @@
       "filter": {
         "player": {
           "combat": null,
-          "specs": [],
           "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
           "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
           "mounts": []
         },
         "map": {
@@ -92,9 +108,17 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": [],
               "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
               "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
               "mounts": []
             },
             "map": {
@@ -133,9 +157,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -200,9 +232,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -253,9 +293,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -320,9 +368,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -385,9 +441,17 @@
       "filter": {
         "player": {
           "combat": null,
-          "specs": [],
           "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
           "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
           "mounts": [
             "None"
           ]
@@ -422,9 +486,17 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": [],
               "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
               "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
               "mounts": []
             },
             "map": {
@@ -473,9 +545,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -550,9 +630,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -601,9 +689,17 @@
       "filter": {
         "player": {
           "combat": null,
-          "specs": [],
           "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
           "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
           "mounts": []
         },
         "map": {
@@ -636,9 +732,17 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": [],
               "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
               "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
               "mounts": [
                 "None"
               ]
@@ -673,9 +777,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -712,9 +824,17 @@
                   "filter": {
                     "player": {
                       "combat": null,
-                      "specs": [],
                       "weapons": [],
+                      "weapon_mode": "Any",
+                      "sigils": [],
+                      "sigil_mode": "Any",
+                      "relics": [],
                       "traits": [],
+                      "trait_mode": "All",
+                      "specs": [],
+                      "skill_selections": [],
+                      "skill_selections_mode": "All",
+                      "prof_selections": [],
                       "mounts": []
                     },
                     "map": {
@@ -777,9 +897,17 @@
                   "filter": {
                     "player": {
                       "combat": null,
-                      "specs": [],
                       "weapons": [],
+                      "weapon_mode": "Any",
+                      "sigils": [],
+                      "sigil_mode": "Any",
+                      "relics": [],
                       "traits": [],
+                      "trait_mode": "All",
+                      "specs": [],
+                      "skill_selections": [],
+                      "skill_selections_mode": "All",
+                      "prof_selections": [],
                       "mounts": []
                     },
                     "map": {
@@ -826,9 +954,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -865,9 +1001,17 @@
                   "filter": {
                     "player": {
                       "combat": null,
-                      "specs": [],
                       "weapons": [],
+                      "weapon_mode": "Any",
+                      "sigils": [],
+                      "sigil_mode": "Any",
+                      "relics": [],
                       "traits": [],
+                      "trait_mode": "All",
+                      "specs": [],
+                      "skill_selections": [],
+                      "skill_selections_mode": "All",
+                      "prof_selections": [],
                       "mounts": []
                     },
                     "map": {
@@ -932,9 +1076,17 @@
       "filter": {
         "player": {
           "combat": null,
-          "specs": [],
           "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
           "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
           "mounts": [
             "None"
           ]
@@ -969,9 +1121,17 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": [],
               "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
               "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
               "mounts": []
             },
             "map": {
@@ -1008,9 +1168,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -1073,9 +1241,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -1124,9 +1300,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -1192,9 +1376,17 @@
       "filter": {
         "player": {
           "combat": null,
-          "specs": [],
           "weapons": [],
+          "weapon_mode": "Any",
+          "sigils": [],
+          "sigil_mode": "Any",
+          "relics": [],
           "traits": [],
+          "trait_mode": "All",
+          "specs": [],
+          "skill_selections": [],
+          "skill_selections_mode": "All",
+          "prof_selections": [],
           "mounts": []
         },
         "map": {
@@ -1227,9 +1419,17 @@
           "filter": {
             "player": {
               "combat": null,
-              "specs": [],
               "weapons": [],
+              "weapon_mode": "Any",
+              "sigils": [],
+              "sigil_mode": "Any",
+              "relics": [],
               "traits": [],
+              "trait_mode": "All",
+              "specs": [],
+              "skill_selections": [],
+              "skill_selections_mode": "All",
+              "prof_selections": [],
               "mounts": []
             },
             "map": {
@@ -1262,9 +1462,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -1303,9 +1511,17 @@
                   "filter": {
                     "player": {
                       "combat": null,
-                      "specs": [],
                       "weapons": [],
+                      "weapon_mode": "Any",
+                      "sigils": [],
+                      "sigil_mode": "Any",
+                      "relics": [],
                       "traits": [],
+                      "trait_mode": "All",
+                      "specs": [],
+                      "skill_selections": [],
+                      "skill_selections_mode": "All",
+                      "prof_selections": [],
                       "mounts": []
                     },
                     "map": {
@@ -1366,9 +1582,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
@@ -1407,9 +1631,17 @@
                   "filter": {
                     "player": {
                       "combat": null,
-                      "specs": [],
                       "weapons": [],
+                      "weapon_mode": "Any",
+                      "sigils": [],
+                      "sigil_mode": "Any",
+                      "relics": [],
                       "traits": [],
+                      "trait_mode": "All",
+                      "specs": [],
+                      "skill_selections": [],
+                      "skill_selections_mode": "All",
+                      "prof_selections": [],
                       "mounts": []
                     },
                     "map": {
@@ -1474,9 +1706,17 @@
               "filter": {
                 "player": {
                   "combat": null,
-                  "specs": [],
                   "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
                   "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
                   "mounts": []
                 },
                 "map": {
