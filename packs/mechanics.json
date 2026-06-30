@@ -3092,6 +3092,297 @@
             },
             {
               "enabled": true,
+              "name": "Rising Presure",
+              "anchor": "Parent",
+              "pos": [
+                110.0,
+                0.0
+              ],
+              "opacity": 1.0,
+              "trigger": {
+                "source": {
+                  "type": "Buff",
+                  "combatant": "Target",
+                  "ids": [
+                    74707,
+                    76480
+                  ]
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "filter": {
+                "player": {
+                  "combat": null,
+                  "weapons": [],
+                  "weapon_mode": "Any",
+                  "sigils": [],
+                  "sigil_mode": "Any",
+                  "relics": [],
+                  "traits": [],
+                  "trait_mode": "All",
+                  "specs": [],
+                  "skill_selections": [],
+                  "skill_selections_mode": "All",
+                  "prof_selections": [],
+                  "mounts": []
+                },
+                "map": {
+                  "category": [],
+                  "whitelist": true,
+                  "ids": []
+                }
+              },
+              "animation": null,
+              "type": "Group",
+              "members": [
+                {
+                  "enabled": true,
+                  "name": "Rising Presure",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "type": "Inherit"
+                    },
+                    "threshold": {
+                      "threshold_type": "Present",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "weapons": [],
+                      "weapon_mode": "Any",
+                      "sigils": [],
+                      "sigil_mode": "Any",
+                      "relics": [],
+                      "traits": [],
+                      "trait_mode": "All",
+                      "specs": [],
+                      "skill_selections": [],
+                      "skill_selections_mode": "All",
+                      "prof_selections": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Icon",
+                  "icon": "Automatic",
+                  "tint": [
+                    1.0,
+                    0.99999,
+                    0.99999,
+                    1.0
+                  ],
+                  "zoom": 1.0,
+                  "round": 0.0,
+                  "border_size": 0.0,
+                  "border_color": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 5.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "properties": {
+                        "tint": [
+                          1.0,
+                          0.55458516,
+                          0.55458516,
+                          1.0
+                        ],
+                        "zoom": null,
+                        "round": null,
+                        "border_size": null,
+                        "border_color": null
+                      }
+                    }
+                  ],
+                  "duration_bar": true,
+                  "duration_text": false,
+                  "stacks_text": false,
+                  "size": [
+                    50.0,
+                    50.0
+                  ]
+                },
+                {
+                  "enabled": false,
+                  "name": "Rising Presure Duration",
+                  "anchor": "Parent",
+                  "pos": [
+                    0.0,
+                    35.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "type": "Inherit"
+                    },
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "weapons": [],
+                      "weapon_mode": "Any",
+                      "sigils": [],
+                      "sigil_mode": "Any",
+                      "relics": [],
+                      "traits": [],
+                      "trait_mode": "All",
+                      "specs": [],
+                      "skill_selections": [],
+                      "skill_selections_mode": "All",
+                      "prof_selections": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%r",
+                  "font": null,
+                  "align": "Center",
+                  "scale": 1.0,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": []
+                },
+                {
+                  "enabled": true,
+                  "name": "Rising Presure Stacks",
+                  "anchor": "Parent",
+                  "pos": [
+                    5.0,
+                    0.0
+                  ],
+                  "opacity": 1.0,
+                  "trigger": {
+                    "source": {
+                      "type": "Inherit"
+                    },
+                    "threshold": {
+                      "threshold_type": "Always",
+                      "amount_type": "Intensity"
+                    }
+                  },
+                  "filter": {
+                    "player": {
+                      "combat": null,
+                      "weapons": [],
+                      "weapon_mode": "Any",
+                      "sigils": [],
+                      "sigil_mode": "Any",
+                      "relics": [],
+                      "traits": [],
+                      "trait_mode": "All",
+                      "specs": [],
+                      "skill_selections": [],
+                      "skill_selections_mode": "All",
+                      "prof_selections": [],
+                      "mounts": []
+                    },
+                    "map": {
+                      "category": [],
+                      "whitelist": true,
+                      "ids": []
+                    }
+                  },
+                  "animation": null,
+                  "type": "Text",
+                  "text": "%i",
+                  "font": null,
+                  "align": "Center",
+                  "scale": 1.3999997,
+                  "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                  ],
+                  "decoration": "Shadow",
+                  "conditions": [
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Exact": 5.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "properties": {
+                        "scale": null,
+                        "color": [
+                          1.0,
+                          0.7336244,
+                          0.0,
+                          1.0
+                        ],
+                        "decoration": null
+                      }
+                    },
+                    {
+                      "trigger": {
+                        "ProgressThreshold": {
+                          "threshold_type": {
+                            "Above": 6.0
+                          },
+                          "amount_type": "Intensity"
+                        }
+                      },
+                      "properties": {
+                        "scale": null,
+                        "color": [
+                          1.0,
+                          0.0,
+                          0.0,
+                          1.0
+                        ],
+                        "decoration": null
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "enabled": true,
               "name": "Sulfuric Acid",
               "anchor": "Parent",
               "pos": [
