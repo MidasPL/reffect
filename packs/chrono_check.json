@@ -1,6 +1,5 @@
 {
   "schema": "v1",
-  "enabled": true,
   "name": "Chrono Check",
   "anchor": {
     "Screen": "Center"
@@ -20,6 +19,7 @@
     }
   },
   "filter": {
+    "enabled": true,
     "player": {
       "combat": null,
       "weapons": [],
@@ -33,6 +33,8 @@
       "skill_selections": [],
       "skill_selections_mode": "All",
       "prof_selections": [],
+      "pets": [],
+      "pet_mode": "All",
       "mounts": []
     },
     "map": {
@@ -45,7 +47,6 @@
   "layer": 0,
   "elements": [
     {
-      "enabled": true,
       "name": "Icons",
       "anchor": "Parent",
       "pos": [
@@ -63,6 +64,7 @@
         }
       },
       "filter": {
+        "enabled": true,
         "player": {
           "combat": null,
           "weapons": [],
@@ -78,6 +80,8 @@
           "skill_selections": [],
           "skill_selections_mode": "All",
           "prof_selections": [],
+          "pets": [],
+          "pet_mode": "All",
           "mounts": []
         },
         "map": {
@@ -90,7 +94,6 @@
       "type": "Group",
       "members": [
         {
-          "enabled": true,
           "name": "Alac",
           "anchor": "Parent",
           "pos": [
@@ -108,6 +111,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -126,6 +130,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -161,10 +167,10 @@
           "size": [
             147.0,
             125.0
-          ]
+          ],
+          "align": "Center"
         },
         {
-          "enabled": true,
           "name": "Quickness",
           "anchor": "Parent",
           "pos": [
@@ -182,6 +188,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -200,6 +207,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -235,7 +244,8 @@
           "size": [
             139.0,
             125.0
-          ]
+          ],
+          "align": "Center"
         }
       ]
     }

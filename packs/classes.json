@@ -1,6 +1,5 @@
 {
   "schema": "v1",
-  "enabled": true,
   "name": "Classes",
   "anchor": {
     "Screen": "Center"
@@ -20,6 +19,7 @@
     }
   },
   "filter": {
+    "enabled": true,
     "player": {
       "combat": null,
       "weapons": [],
@@ -33,6 +33,8 @@
       "skill_selections": [],
       "skill_selections_mode": "All",
       "prof_selections": [],
+      "pets": [],
+      "pet_mode": "All",
       "mounts": []
     },
     "map": {
@@ -45,7 +47,6 @@
   "layer": 0,
   "elements": [
     {
-      "enabled": true,
       "name": "classes",
       "anchor": "Parent",
       "pos": [
@@ -63,6 +64,7 @@
         }
       },
       "filter": {
+        "enabled": true,
         "player": {
           "combat": null,
           "weapons": [],
@@ -76,6 +78,8 @@
           "skill_selections": [],
           "skill_selections_mode": "All",
           "prof_selections": [],
+          "pets": [],
+          "pet_mode": "All",
           "mounts": []
         },
         "map": {
@@ -88,7 +92,6 @@
       "type": "Group",
       "members": [
         {
-          "enabled": true,
           "name": "Necromancer",
           "anchor": "Parent",
           "pos": [
@@ -106,6 +109,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -119,6 +123,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -131,7 +137,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Harbinger",
               "anchor": "Parent",
               "pos": [
@@ -149,6 +154,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -164,6 +170,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -176,7 +184,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Blight",
                   "anchor": "Parent",
                   "pos": [
@@ -198,6 +205,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -211,6 +219,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -246,12 +256,12 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 }
               ]
             },
             {
-              "enabled": true,
               "name": "Scourge",
               "anchor": "Parent",
               "pos": [
@@ -269,6 +279,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -284,6 +295,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -296,7 +309,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Shades",
                   "anchor": "Parent",
                   "pos": [
@@ -314,6 +326,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -327,6 +340,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -346,7 +361,6 @@
                   "pad": 4.0,
                   "icons": [
                     {
-                      "enabled": true,
                       "name": "Shade1",
                       "trigger": {
                         "source": {
@@ -360,6 +374,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -373,6 +388,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -405,7 +422,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "Shade2",
                       "trigger": {
                         "source": {
@@ -419,6 +435,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -432,6 +449,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -464,7 +483,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "Shade3",
                       "trigger": {
                         "source": {
@@ -478,6 +496,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -491,6 +510,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -525,7 +546,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Shades missing",
                   "anchor": "Parent",
                   "pos": [
@@ -543,6 +563,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -556,6 +577,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -575,7 +598,6 @@
                   "pad": 4.0,
                   "icons": [
                     {
-                      "enabled": true,
                       "name": "Shade1",
                       "trigger": {
                         "source": {
@@ -587,6 +609,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -600,6 +623,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -632,7 +657,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "Shade2",
                       "trigger": {
                         "source": {
@@ -646,6 +670,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -659,6 +684,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -691,7 +718,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "Shade3",
                       "trigger": {
                         "source": {
@@ -705,6 +731,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -718,6 +745,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -756,7 +785,6 @@
           ]
         },
         {
-          "enabled": true,
           "name": "Ranger",
           "anchor": "Parent",
           "pos": [
@@ -774,6 +802,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -787,6 +816,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -799,7 +830,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Sic 'em",
               "anchor": "Parent",
               "pos": [
@@ -821,6 +851,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -834,6 +865,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -869,10 +902,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Sic'emDuration",
               "anchor": "Parent",
               "pos": [
@@ -894,6 +927,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -907,6 +941,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -931,7 +967,6 @@
               "conditions": []
             },
             {
-              "enabled": true,
               "name": "One Wolf Pack",
               "anchor": "Parent",
               "pos": [
@@ -953,6 +988,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -966,6 +1002,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -1001,10 +1039,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "One Wolf Pack Duation",
               "anchor": "Parent",
               "pos": [
@@ -1026,6 +1064,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -1039,6 +1078,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -1063,7 +1104,6 @@
               "conditions": []
             },
             {
-              "enabled": true,
               "name": "Soulbeast",
               "anchor": "Parent",
               "pos": [
@@ -1081,6 +1121,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -1096,6 +1137,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -1108,7 +1151,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Merge",
                   "anchor": "Parent",
                   "pos": [
@@ -1130,6 +1172,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -1143,6 +1186,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -1178,10 +1223,10 @@
                   "size": [
                     70.0,
                     70.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Twice as Vicious",
                   "anchor": "Parent",
                   "pos": [
@@ -1203,6 +1248,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -1216,6 +1262,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -1251,10 +1299,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Twice as Vicious Duration",
                   "anchor": "Parent",
                   "pos": [
@@ -1276,6 +1324,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -1289,6 +1338,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -1313,7 +1364,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": false,
                   "name": "Bar Pack",
                   "anchor": "Parent",
                   "pos": [
@@ -1331,6 +1381,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": false,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -1344,6 +1395,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -1356,7 +1409,6 @@
                   "type": "Group",
                   "members": [
                     {
-                      "enabled": true,
                       "name": "Sic 'em",
                       "anchor": "Parent",
                       "pos": [
@@ -1378,6 +1430,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -1391,6 +1444,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -1426,10 +1481,10 @@
                       "size": [
                         60.0,
                         60.0
-                      ]
+                      ],
+                      "align": "Center"
                     },
                     {
-                      "enabled": true,
                       "name": "One Wolf Pack",
                       "anchor": "Parent",
                       "pos": [
@@ -1451,6 +1506,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -1464,6 +1520,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -1499,7 +1557,8 @@
                       "size": [
                         60.0,
                         60.0
-                      ]
+                      ],
+                      "align": "Center"
                     }
                   ]
                 }
@@ -1508,7 +1567,6 @@
           ]
         },
         {
-          "enabled": true,
           "name": "Mesmer",
           "anchor": "Parent",
           "pos": [
@@ -1526,6 +1584,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -1539,6 +1598,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -1551,7 +1612,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Deadly Blades",
               "anchor": "Parent",
               "pos": [
@@ -1573,6 +1633,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -1586,6 +1647,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -1621,10 +1684,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Compounding Power",
               "anchor": "Parent",
               "pos": [
@@ -1646,6 +1709,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -1659,6 +1723,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -1694,10 +1760,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Portal",
               "anchor": "Parent",
               "pos": [
@@ -1715,6 +1781,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -1728,6 +1795,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -1740,7 +1809,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Portal Bar",
                   "anchor": "Parent",
                   "pos": [
@@ -1762,6 +1830,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -1775,6 +1844,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -1795,12 +1866,14 @@
                     0.9432316,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -1826,7 +1899,6 @@
                   "ticks": []
                 },
                 {
-                  "enabled": true,
                   "name": "Portal Icon",
                   "anchor": "Parent",
                   "pos": [
@@ -1848,6 +1920,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -1861,6 +1934,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -1896,10 +1971,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Portal Text",
                   "anchor": "Parent",
                   "pos": [
@@ -1921,6 +1996,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -1934,6 +2010,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -1960,7 +2038,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "Continuum Split",
               "anchor": "Parent",
               "pos": [
@@ -1978,6 +2055,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -1991,6 +2069,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -2003,7 +2083,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "CS bar",
                   "anchor": "Parent",
                   "pos": [
@@ -2025,6 +2104,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -2038,6 +2118,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -2058,12 +2140,14 @@
                     1.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -2089,7 +2173,6 @@
                   "ticks": []
                 },
                 {
-                  "enabled": true,
                   "name": "CS bar duration",
                   "anchor": "Parent",
                   "pos": [
@@ -2111,6 +2194,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -2124,6 +2208,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -2148,7 +2234,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "CS Icon",
                   "anchor": "Parent",
                   "pos": [
@@ -2170,6 +2255,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -2183,6 +2269,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -2218,12 +2306,12 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 }
               ]
             },
             {
-              "enabled": true,
               "name": "virtuoso",
               "anchor": "Parent",
               "pos": [
@@ -2241,6 +2329,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -2256,6 +2345,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -2268,7 +2359,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": false,
                   "name": "deadly_blades_off",
                   "anchor": "Parent",
                   "pos": [
@@ -2290,6 +2380,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": false,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -2303,6 +2394,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -2338,10 +2431,10 @@
                   "size": [
                     84.0,
                     84.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": false,
                   "name": "deadly_blades_on",
                   "anchor": "Parent",
                   "pos": [
@@ -2363,6 +2456,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": false,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -2376,6 +2470,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -2411,10 +2507,10 @@
                   "size": [
                     84.0,
                     84.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "missing_blades",
                   "anchor": "Parent",
                   "pos": [
@@ -2432,6 +2528,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -2445,6 +2542,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -2464,7 +2563,6 @@
                   "pad": 2.0,
                   "icons": [
                     {
-                      "enabled": true,
                       "name": "blade1",
                       "trigger": {
                         "source": {
@@ -2476,6 +2574,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -2489,6 +2588,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -2521,7 +2622,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "blade2",
                       "trigger": {
                         "source": {
@@ -2535,6 +2635,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -2548,6 +2649,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -2580,7 +2683,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "blade3",
                       "trigger": {
                         "source": {
@@ -2594,6 +2696,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -2607,6 +2710,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -2639,7 +2744,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "blade4",
                       "trigger": {
                         "source": {
@@ -2653,6 +2757,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -2666,6 +2771,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -2698,7 +2805,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "blade5",
                       "trigger": {
                         "source": {
@@ -2712,6 +2818,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -2725,6 +2832,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -2759,7 +2868,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "blades",
                   "anchor": "Parent",
                   "pos": [
@@ -2777,6 +2885,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -2790,6 +2899,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -2809,7 +2920,6 @@
                   "pad": 2.0,
                   "icons": [
                     {
-                      "enabled": true,
                       "name": "blade1",
                       "trigger": {
                         "source": {
@@ -2823,6 +2933,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -2836,6 +2947,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -2868,7 +2981,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "blade2",
                       "trigger": {
                         "source": {
@@ -2882,6 +2994,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -2895,6 +3008,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -2927,7 +3042,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "blade3",
                       "trigger": {
                         "source": {
@@ -2941,6 +3055,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -2954,6 +3069,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -2986,7 +3103,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "blade4",
                       "trigger": {
                         "source": {
@@ -3000,6 +3116,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -3013,6 +3130,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -3045,7 +3164,6 @@
                       "stacks_text": false
                     },
                     {
-                      "enabled": true,
                       "name": "blade5",
                       "trigger": {
                         "source": {
@@ -3059,6 +3177,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -3072,6 +3191,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -3106,7 +3227,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "db_on",
                   "anchor": "Parent",
                   "pos": [
@@ -3128,6 +3248,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -3141,6 +3262,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -3161,12 +3284,14 @@
                     1.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.7117904,
                     0.48488775,
                     0.48488775,
                     0.4037267
                   ],
+                  "background_texture": "None",
                   "border_size": 2.0,
                   "border_color": [
                     0.0,
@@ -3192,7 +3317,6 @@
                   "ticks": []
                 },
                 {
-                  "enabled": true,
                   "name": "Helper",
                   "anchor": "Parent",
                   "pos": [
@@ -3210,6 +3334,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -3223,6 +3348,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -3235,7 +3362,6 @@
                   "type": "Group",
                   "members": [
                     {
-                      "enabled": true,
                       "name": "WeaponSwap",
                       "anchor": "Parent",
                       "pos": [
@@ -3254,6 +3380,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -3267,6 +3394,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -3302,10 +3431,10 @@
                       "size": [
                         40.0,
                         40.0
-                      ]
+                      ],
+                      "align": "Center"
                     },
                     {
-                      "enabled": true,
                       "name": "PhantasmalSwordsman",
                       "anchor": "Parent",
                       "pos": [
@@ -3326,6 +3455,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -3339,6 +3469,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -3374,10 +3506,10 @@
                       "size": [
                         40.0,
                         40.0
-                      ]
+                      ],
+                      "align": "Center"
                     },
                     {
-                      "enabled": true,
                       "name": "PhantasmalWarden",
                       "anchor": "Parent",
                       "pos": [
@@ -3398,6 +3530,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -3411,6 +3544,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -3446,14 +3581,14 @@
                       "size": [
                         40.0,
                         40.0
-                      ]
+                      ],
+                      "align": "Center"
                     }
                   ]
                 }
               ]
             },
             {
-              "enabled": true,
               "name": "Distortion",
               "anchor": "Parent",
               "pos": [
@@ -3471,6 +3606,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -3484,6 +3620,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -3496,7 +3634,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Distortion bar",
                   "anchor": "Parent",
                   "pos": [
@@ -3518,6 +3655,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -3531,6 +3669,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -3551,12 +3691,14 @@
                     1.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -3582,7 +3724,6 @@
                   "ticks": []
                 },
                 {
-                  "enabled": true,
                   "name": "Distortion bar duration",
                   "anchor": "Parent",
                   "pos": [
@@ -3604,6 +3745,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -3617,6 +3759,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -3641,7 +3785,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Distortion Icon",
                   "anchor": "Parent",
                   "pos": [
@@ -3663,6 +3806,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -3676,6 +3820,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -3711,14 +3857,14 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 }
               ]
             }
           ]
         },
         {
-          "enabled": true,
           "name": "Revenant",
           "anchor": "Parent",
           "pos": [
@@ -3736,6 +3882,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -3755,6 +3902,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -3767,7 +3916,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Vindi",
               "anchor": "Parent",
               "pos": [
@@ -3785,6 +3933,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -3800,6 +3949,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -3812,7 +3963,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Death Drop",
                   "anchor": "Parent",
                   "pos": [
@@ -3834,6 +3984,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -3847,6 +3998,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -3882,12 +4035,12 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 }
               ]
             },
             {
-              "enabled": true,
               "name": "Herald",
               "anchor": "Parent",
               "pos": [
@@ -3905,6 +4058,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -3920,6 +4074,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -3932,7 +4088,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": false,
                   "name": "Infuse Light",
                   "anchor": "Parent",
                   "pos": [
@@ -3954,6 +4109,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": false,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -3967,6 +4123,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4002,10 +4160,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Burst of Strength",
                   "anchor": "Parent",
                   "pos": [
@@ -4027,6 +4185,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4040,6 +4199,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4075,10 +4236,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Burst of Strength duration",
                   "anchor": "Parent",
                   "pos": [
@@ -4100,6 +4261,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4113,6 +4275,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4137,7 +4301,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": false,
                   "name": "Infuse Light duration",
                   "anchor": "Parent",
                   "pos": [
@@ -4159,6 +4322,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": false,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4172,6 +4336,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4196,7 +4362,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Infused Light bar",
                   "anchor": "Parent",
                   "pos": [
@@ -4218,6 +4383,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4231,6 +4397,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4251,12 +4419,14 @@
                     1.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -4282,7 +4452,6 @@
                   "ticks": []
                 },
                 {
-                  "enabled": true,
                   "name": "Infuse Light bar duration",
                   "anchor": "Parent",
                   "pos": [
@@ -4304,6 +4473,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4317,6 +4487,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4341,7 +4513,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Infused Light Icon",
                   "anchor": "Parent",
                   "pos": [
@@ -4363,6 +4534,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4376,6 +4548,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4409,12 +4583,12 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 }
               ]
             },
             {
-              "enabled": true,
               "name": "Renegade",
               "anchor": "Parent",
               "pos": [
@@ -4432,6 +4606,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -4445,6 +4620,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -4457,7 +4634,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Resource",
                   "anchor": "Parent",
                   "pos": [
@@ -4477,6 +4653,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4490,6 +4667,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4510,12 +4689,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.15720522
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -4544,7 +4725,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Resource SafeSwap",
                   "anchor": "Parent",
                   "pos": [
@@ -4564,6 +4744,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4577,6 +4758,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4597,12 +4780,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.15720522
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -4631,7 +4816,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Resource Text",
                   "anchor": "Parent",
                   "pos": [
@@ -4649,6 +4833,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4662,6 +4847,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4686,7 +4873,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Crushig Abyss",
                   "anchor": "Parent",
                   "pos": [
@@ -4708,6 +4894,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4721,6 +4908,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4741,12 +4930,14 @@
                     1.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -4777,7 +4968,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "Crushig Abyss timer",
               "anchor": "Parent",
               "pos": [
@@ -4799,6 +4989,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -4812,6 +5003,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -4832,12 +5025,14 @@
                 0.0,
                 1.0
               ],
+              "fill_texture": "None",
               "background": [
                 0.0,
                 0.0,
                 0.0,
                 0.0
               ],
+              "background_texture": "None",
               "border_size": 1.0,
               "border_color": [
                 0.0,
@@ -4865,7 +5060,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "Conduit",
               "anchor": "Parent",
               "pos": [
@@ -4883,6 +5077,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -4898,6 +5093,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -4910,7 +5107,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Affinity",
                   "anchor": "Parent",
                   "pos": [
@@ -4928,6 +5124,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -4941,6 +5138,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -4961,12 +5160,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -5001,7 +5202,6 @@
           ]
         },
         {
-          "enabled": true,
           "name": "Engineer",
           "anchor": "Parent",
           "pos": [
@@ -5019,6 +5219,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -5032,6 +5233,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -5044,7 +5247,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Mechanist",
               "anchor": "Parent",
               "pos": [
@@ -5062,6 +5264,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -5077,6 +5280,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -5089,7 +5294,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Mechanical Genius",
                   "anchor": "Parent",
                   "pos": [
@@ -5112,6 +5316,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -5125,6 +5330,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -5160,10 +5367,10 @@
                   "size": [
                     70.0,
                     70.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Helper",
                   "anchor": "Parent",
                   "pos": [
@@ -5181,6 +5388,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [
@@ -5196,6 +5404,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -5208,7 +5418,6 @@
                   "type": "Group",
                   "members": [
                     {
-                      "enabled": true,
                       "name": "Conduit Surge",
                       "anchor": "Parent",
                       "pos": [
@@ -5229,6 +5438,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -5242,6 +5452,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -5254,7 +5466,6 @@
                       "type": "Group",
                       "members": [
                         {
-                          "enabled": true,
                           "name": "Conduit Surge",
                           "anchor": "Parent",
                           "pos": [
@@ -5274,6 +5485,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -5287,6 +5499,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -5343,10 +5557,10 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         },
                         {
-                          "enabled": true,
                           "name": "CD",
                           "anchor": "Parent",
                           "pos": [
@@ -5366,6 +5580,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -5379,6 +5594,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -5405,7 +5622,6 @@
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Lightning Rod",
                       "anchor": "Parent",
                       "pos": [
@@ -5426,6 +5642,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -5439,6 +5656,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -5451,7 +5670,6 @@
                       "type": "Group",
                       "members": [
                         {
-                          "enabled": true,
                           "name": "Lightning Rod",
                           "anchor": "Parent",
                           "pos": [
@@ -5469,6 +5687,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -5482,6 +5701,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -5565,10 +5786,10 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         },
                         {
-                          "enabled": true,
                           "name": "CD",
                           "anchor": "Parent",
                           "pos": [
@@ -5588,6 +5809,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -5601,6 +5823,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -5625,7 +5849,6 @@
                           "conditions": []
                         },
                         {
-                          "enabled": true,
                           "name": "Electric Artillery",
                           "anchor": "Parent",
                           "pos": [
@@ -5646,6 +5869,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -5659,6 +5883,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -5694,12 +5920,12 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         }
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Devastator",
                       "anchor": "Parent",
                       "pos": [
@@ -5720,6 +5946,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -5733,6 +5960,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -5745,7 +5974,6 @@
                       "type": "Group",
                       "members": [
                         {
-                          "enabled": true,
                           "name": "Devastator",
                           "anchor": "Parent",
                           "pos": [
@@ -5763,6 +5991,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -5776,6 +6005,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -5859,10 +6090,10 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         },
                         {
-                          "enabled": true,
                           "name": "CD",
                           "anchor": "Parent",
                           "pos": [
@@ -5882,6 +6113,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -5895,6 +6127,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -5921,7 +6155,6 @@
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Superconducting Signet",
                       "anchor": "Parent",
                       "pos": [
@@ -5942,6 +6175,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -5955,6 +6189,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -5967,7 +6203,6 @@
                       "type": "Group",
                       "members": [
                         {
-                          "enabled": true,
                           "name": "Superconducting Signet",
                           "anchor": "Parent",
                           "pos": [
@@ -5985,6 +6220,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -5998,6 +6234,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6081,10 +6319,10 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         },
                         {
-                          "enabled": true,
                           "name": "CD",
                           "anchor": "Parent",
                           "pos": [
@@ -6104,6 +6342,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -6117,6 +6356,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6143,7 +6384,6 @@
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Overclock Signet",
                       "anchor": "Parent",
                       "pos": [
@@ -6164,6 +6404,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -6177,6 +6418,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -6189,7 +6432,6 @@
                       "type": "Group",
                       "members": [
                         {
-                          "enabled": true,
                           "name": "Overclock Signet",
                           "anchor": "Parent",
                           "pos": [
@@ -6207,6 +6449,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -6220,6 +6463,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6303,10 +6548,10 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         },
                         {
-                          "enabled": true,
                           "name": "CD",
                           "anchor": "Parent",
                           "pos": [
@@ -6326,6 +6571,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -6339,6 +6585,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6365,7 +6613,6 @@
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Shrapnel Grenade",
                       "anchor": "Parent",
                       "pos": [
@@ -6386,6 +6633,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -6399,6 +6647,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -6411,7 +6661,6 @@
                       "type": "Group",
                       "members": [
                         {
-                          "enabled": true,
                           "name": "Shrapnel Grenade",
                           "anchor": "Parent",
                           "pos": [
@@ -6429,6 +6678,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -6442,6 +6692,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6525,10 +6777,10 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         },
                         {
-                          "enabled": true,
                           "name": "CD",
                           "anchor": "Parent",
                           "pos": [
@@ -6548,6 +6800,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -6561,6 +6814,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6587,7 +6842,6 @@
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Freeze Grenade",
                       "anchor": "Parent",
                       "pos": [
@@ -6608,6 +6862,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -6621,6 +6876,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -6633,7 +6890,6 @@
                       "type": "Group",
                       "members": [
                         {
-                          "enabled": true,
                           "name": "Freeze Grenade",
                           "anchor": "Parent",
                           "pos": [
@@ -6651,6 +6907,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -6664,6 +6921,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6747,10 +7006,10 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         },
                         {
-                          "enabled": true,
                           "name": "CD",
                           "anchor": "Parent",
                           "pos": [
@@ -6770,6 +7029,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -6783,6 +7043,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6809,7 +7071,6 @@
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Poison Grenade",
                       "anchor": "Parent",
                       "pos": [
@@ -6830,6 +7091,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -6843,6 +7105,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -6855,7 +7119,6 @@
                       "type": "Group",
                       "members": [
                         {
-                          "enabled": true,
                           "name": "Poison Grenade",
                           "anchor": "Parent",
                           "pos": [
@@ -6873,6 +7136,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -6886,6 +7150,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -6969,10 +7235,10 @@
                           "size": [
                             40.0,
                             40.0
-                          ]
+                          ],
+                          "align": "Center"
                         },
                         {
-                          "enabled": true,
                           "name": "CD",
                           "anchor": "Parent",
                           "pos": [
@@ -6992,6 +7258,7 @@
                             }
                           },
                           "filter": {
+                            "enabled": true,
                             "player": {
                               "combat": null,
                               "weapons": [],
@@ -7005,6 +7272,8 @@
                               "skill_selections": [],
                               "skill_selections_mode": "All",
                               "prof_selections": [],
+                              "pets": [],
+                              "pet_mode": "All",
                               "mounts": []
                             },
                             "map": {
@@ -7035,7 +7304,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "AED bar",
               "anchor": "Parent",
               "pos": [
@@ -7057,6 +7325,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7070,6 +7339,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7090,12 +7361,14 @@
                 1.0,
                 1.0
               ],
+              "fill_texture": "None",
               "background": [
                 0.0,
                 0.0,
                 0.0,
                 0.0
               ],
+              "background_texture": "None",
               "border_size": 1.0,
               "border_color": [
                 0.0,
@@ -7121,7 +7394,6 @@
               "ticks": []
             },
             {
-              "enabled": true,
               "name": "AED bar duration",
               "anchor": "Parent",
               "pos": [
@@ -7143,6 +7415,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7156,6 +7429,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7180,7 +7455,6 @@
               "conditions": []
             },
             {
-              "enabled": true,
               "name": "Elixir S bar",
               "anchor": "Parent",
               "pos": [
@@ -7202,6 +7476,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7215,6 +7490,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7235,12 +7512,14 @@
                 0.0,
                 1.0
               ],
+              "fill_texture": "None",
               "background": [
                 0.0,
                 0.0,
                 0.0,
                 0.0
               ],
+              "background_texture": "None",
               "border_size": 1.0,
               "border_color": [
                 0.0,
@@ -7266,7 +7545,6 @@
               "ticks": []
             },
             {
-              "enabled": true,
               "name": "Elixir S bar duration",
               "anchor": "Parent",
               "pos": [
@@ -7288,6 +7566,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7301,6 +7580,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7327,7 +7608,6 @@
           ]
         },
         {
-          "enabled": true,
           "name": "Thief",
           "anchor": "Parent",
           "pos": [
@@ -7345,6 +7625,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -7364,6 +7645,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -7376,7 +7659,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Kneel",
               "anchor": "Parent",
               "pos": [
@@ -7398,6 +7680,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7411,6 +7694,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7446,10 +7731,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Shadowstep",
               "anchor": "Parent",
               "pos": [
@@ -7471,6 +7756,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7484,6 +7770,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7519,10 +7807,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Shadowstep Duration",
               "anchor": "Parent",
               "pos": [
@@ -7544,6 +7832,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7557,6 +7846,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7581,7 +7872,6 @@
               "conditions": []
             },
             {
-              "enabled": true,
               "name": "Stealth",
               "anchor": "Parent",
               "pos": [
@@ -7606,6 +7896,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7619,6 +7910,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7654,10 +7947,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Revealed",
               "anchor": "Parent",
               "pos": [
@@ -7679,6 +7972,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7692,6 +7986,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7727,10 +8023,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Resource",
               "anchor": "Parent",
               "pos": [
@@ -7748,6 +8044,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7761,6 +8058,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7781,12 +8080,14 @@
                 0.5536591,
                 1.0
               ],
+              "fill_texture": "None",
               "background": [
                 0.62445414,
                 0.6244479,
                 0.6244479,
                 0.15720522
               ],
+              "background_texture": "None",
               "border_size": 1.0,
               "border_color": [
                 0.0,
@@ -7825,7 +8126,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "Assassin's Signet",
               "anchor": "Parent",
               "pos": [
@@ -7847,6 +8147,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7860,6 +8161,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7895,10 +8198,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Deadeye",
               "anchor": "Parent",
               "pos": [
@@ -7916,6 +8219,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -7931,6 +8235,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -7943,7 +8249,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Deadeye's Gaze",
                   "anchor": "Parent",
                   "pos": [
@@ -7965,6 +8270,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -7978,6 +8284,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8013,10 +8321,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Resource",
                   "anchor": "Parent",
                   "pos": [
@@ -8034,6 +8342,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8052,6 +8361,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8072,12 +8383,14 @@
                     0.6125696,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.15720522
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -8108,7 +8421,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Resource",
                   "anchor": "Parent",
                   "pos": [
@@ -8126,6 +8438,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8144,6 +8457,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8164,12 +8479,14 @@
                     0.6125696,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.15720522
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -8200,7 +8517,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Resource",
                   "anchor": "Parent",
                   "pos": [
@@ -8218,6 +8534,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8236,6 +8553,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8256,12 +8575,14 @@
                     0.6125696,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.15720522
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -8295,7 +8616,9 @@
                           0.0,
                           1.0
                         ],
+                        "fill_texture": null,
                         "background": null,
+                        "background_texture": null,
                         "border_size": null,
                         "border_color": null,
                         "tick_size": null,
@@ -8322,7 +8645,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "Shadow Veil",
               "anchor": "Parent",
               "pos": [
@@ -8340,6 +8662,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -8353,6 +8676,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -8365,7 +8690,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Shadow Veil bar",
                   "anchor": "Parent",
                   "pos": [
@@ -8387,6 +8711,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8400,6 +8725,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8420,12 +8747,14 @@
                     0.27510917,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -8451,7 +8780,6 @@
                   "ticks": []
                 },
                 {
-                  "enabled": true,
                   "name": "Shadow Veil duration",
                   "anchor": "Parent",
                   "pos": [
@@ -8473,6 +8801,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8486,6 +8815,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8510,7 +8841,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Shadow Veil Icon",
                   "anchor": "Parent",
                   "pos": [
@@ -8532,6 +8862,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8545,6 +8876,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8578,12 +8911,12 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 }
               ]
             },
             {
-              "enabled": true,
               "name": "Antiquary",
               "anchor": "Parent",
               "pos": [
@@ -8601,6 +8934,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -8616,6 +8950,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -8628,7 +8964,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Mistburn Mortar ",
                   "anchor": "Parent",
                   "pos": [
@@ -8650,6 +8985,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8663,6 +8999,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8717,10 +9055,10 @@
                   "size": [
                     40.0,
                     40.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Forged Surfer Dash ",
                   "anchor": "Parent",
                   "pos": [
@@ -8742,6 +9080,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8755,6 +9094,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8809,10 +9150,10 @@
                   "size": [
                     40.0,
                     40.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Summon Kryptis Turret ",
                   "anchor": "Parent",
                   "pos": [
@@ -8834,6 +9175,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8847,6 +9189,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8901,10 +9245,10 @@
                   "size": [
                     40.0,
                     40.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Zephyrite Sun Crystal ",
                   "anchor": "Parent",
                   "pos": [
@@ -8926,6 +9270,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -8939,6 +9284,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -8993,10 +9340,10 @@
                   "size": [
                     40.0,
                     40.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Chak Shield ",
                   "anchor": "Parent",
                   "pos": [
@@ -9018,6 +9365,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -9031,6 +9379,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -9085,10 +9435,10 @@
                   "size": [
                     40.0,
                     40.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Holo-Dancer Decoy ",
                   "anchor": "Parent",
                   "pos": [
@@ -9110,6 +9460,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -9123,6 +9474,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -9177,10 +9530,10 @@
                   "size": [
                     40.0,
                     40.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Exalted Hammer ",
                   "anchor": "Parent",
                   "pos": [
@@ -9202,6 +9555,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -9215,6 +9569,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -9269,10 +9625,10 @@
                   "size": [
                     40.0,
                     40.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Metal Legion Guitar ",
                   "anchor": "Parent",
                   "pos": [
@@ -9294,6 +9650,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -9307,6 +9664,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -9361,14 +9720,14 @@
                   "size": [
                     40.0,
                     40.0
-                  ]
+                  ],
+                  "align": "Center"
                 }
               ]
             }
           ]
         },
         {
-          "enabled": true,
           "name": "Elementalist",
           "anchor": "Parent",
           "pos": [
@@ -9386,6 +9745,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -9399,6 +9759,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -9411,7 +9773,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Rebound bar",
               "anchor": "Parent",
               "pos": [
@@ -9433,6 +9794,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -9446,6 +9808,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -9466,12 +9830,14 @@
                 0.02215825,
                 1.0
               ],
+              "fill_texture": "None",
               "background": [
                 0.0,
                 0.0,
                 0.0,
                 0.0
               ],
+              "background_texture": "None",
               "border_size": 1.0,
               "border_color": [
                 0.0,
@@ -9497,7 +9863,6 @@
               "ticks": []
             },
             {
-              "enabled": true,
               "name": "Rebound bar duration",
               "anchor": "Parent",
               "pos": [
@@ -9519,6 +9884,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -9532,6 +9898,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -9556,7 +9924,6 @@
               "conditions": []
             },
             {
-              "enabled": true,
               "name": "Rebound Icon",
               "anchor": "Parent",
               "pos": [
@@ -9578,6 +9945,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -9591,6 +9959,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -9624,10 +9994,10 @@
               "size": [
                 32.0,
                 32.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Resource",
               "anchor": "Parent",
               "pos": [
@@ -9645,6 +10015,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -9660,6 +10031,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -9680,12 +10053,14 @@
                 0.0,
                 1.0
               ],
+              "fill_texture": "None",
               "background": [
                 0.62445414,
                 0.6244479,
                 0.6244479,
                 0.15720522
               ],
+              "background_texture": "None",
               "border_size": 1.0,
               "border_color": [
                 0.0,
@@ -9714,7 +10089,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "Pistol",
               "anchor": "Parent",
               "pos": [
@@ -9732,6 +10106,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [
@@ -9753,6 +10128,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -9765,7 +10142,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Fire Empty",
                   "anchor": "Parent",
                   "pos": [
@@ -9787,6 +10163,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -9800,6 +10177,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -9835,10 +10214,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Fire Full",
                   "anchor": "Parent",
                   "pos": [
@@ -9860,6 +10239,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -9873,6 +10253,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -9908,10 +10290,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Water Empty",
                   "anchor": "Parent",
                   "pos": [
@@ -9933,6 +10315,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -9946,6 +10329,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -9981,10 +10366,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Water Full",
                   "anchor": "Parent",
                   "pos": [
@@ -10006,6 +10391,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10019,6 +10405,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10054,10 +10442,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Air Empty",
                   "anchor": "Parent",
                   "pos": [
@@ -10079,6 +10467,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10092,6 +10481,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10127,10 +10518,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Air Full",
                   "anchor": "Parent",
                   "pos": [
@@ -10152,6 +10543,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10165,6 +10557,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10200,10 +10594,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Earth Empty",
                   "anchor": "Parent",
                   "pos": [
@@ -10225,6 +10619,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10238,6 +10633,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10273,10 +10670,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Earth Full",
                   "anchor": "Parent",
                   "pos": [
@@ -10298,6 +10695,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10311,6 +10709,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10346,12 +10746,12 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 }
               ]
             },
             {
-              "enabled": true,
               "name": "Pistol Bar",
               "anchor": "Parent",
               "pos": [
@@ -10369,6 +10769,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [
@@ -10390,6 +10791,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -10402,7 +10805,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Fire Empty",
                   "anchor": "Parent",
                   "pos": [
@@ -10424,6 +10826,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10437,6 +10840,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10472,10 +10877,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Fire Full",
                   "anchor": "Parent",
                   "pos": [
@@ -10497,6 +10902,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10510,6 +10916,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10545,10 +10953,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Water Empty",
                   "anchor": "Parent",
                   "pos": [
@@ -10570,6 +10978,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10583,6 +10992,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10618,10 +11029,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Water Full",
                   "anchor": "Parent",
                   "pos": [
@@ -10643,6 +11054,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10656,6 +11068,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10691,10 +11105,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Air Empty",
                   "anchor": "Parent",
                   "pos": [
@@ -10716,6 +11130,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10729,6 +11144,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10764,10 +11181,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Air Full",
                   "anchor": "Parent",
                   "pos": [
@@ -10789,6 +11206,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10802,6 +11220,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10837,10 +11257,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Earth Empty",
                   "anchor": "Parent",
                   "pos": [
@@ -10862,6 +11282,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10875,6 +11296,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10910,10 +11333,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Earth Full",
                   "anchor": "Parent",
                   "pos": [
@@ -10935,6 +11358,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -10948,6 +11372,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -10983,10 +11409,10 @@
                   "size": [
                     32.0,
                     32.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Raging Rcochet",
                   "anchor": "Parent",
                   "pos": [
@@ -11008,6 +11434,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11021,6 +11448,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11054,10 +11483,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Raging Rcochet duration",
                   "anchor": "Parent",
                   "pos": [
@@ -11079,6 +11508,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11092,6 +11522,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11116,7 +11548,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Shatering Stone",
                   "anchor": "Parent",
                   "pos": [
@@ -11138,6 +11569,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11151,6 +11583,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11184,10 +11618,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Shatering Stone duration",
                   "anchor": "Parent",
                   "pos": [
@@ -11209,6 +11643,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11222,6 +11657,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11248,7 +11685,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "Weaver",
               "anchor": "Parent",
               "pos": [
@@ -11266,6 +11702,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -11281,6 +11718,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -11293,7 +11732,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Selfweave",
                   "anchor": "Parent",
                   "pos": [
@@ -11315,6 +11753,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11328,6 +11767,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11361,10 +11802,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Selfweave duration",
                   "anchor": "Parent",
                   "pos": [
@@ -11386,6 +11827,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11399,6 +11841,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11425,7 +11869,6 @@
               ]
             },
             {
-              "enabled": true,
               "name": "Evoker",
               "anchor": "Parent",
               "pos": [
@@ -11443,6 +11886,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -11458,6 +11902,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -11470,7 +11916,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Resource",
                   "anchor": "Parent",
                   "pos": [
@@ -11488,6 +11933,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11503,6 +11949,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11523,12 +11971,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.15720522
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -11562,7 +12012,9 @@
                           0.0,
                           1.0
                         ],
+                        "fill_texture": null,
                         "background": null,
+                        "background_texture": null,
                         "border_size": null,
                         "border_color": null,
                         "tick_size": null,
@@ -11583,7 +12035,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Resource Mini",
                   "anchor": "Parent",
                   "pos": [
@@ -11601,6 +12052,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11616,6 +12068,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11636,12 +12090,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62352943,
                     0.62352943,
                     0.62352943,
                     0.43137255
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -11675,7 +12131,9 @@
                           0.0,
                           1.0
                         ],
+                        "fill_texture": null,
                         "background": null,
+                        "background_texture": null,
                         "border_size": null,
                         "border_color": null,
                         "tick_size": null,
@@ -11696,7 +12154,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Resource2",
                   "anchor": "Parent",
                   "pos": [
@@ -11714,6 +12171,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11729,6 +12187,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11749,12 +12209,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.15720522
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -11782,7 +12244,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Resource2 Mini",
                   "anchor": "Parent",
                   "pos": [
@@ -11800,6 +12261,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -11815,6 +12277,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -11835,12 +12299,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.4323144
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -11872,7 +12338,6 @@
           ]
         },
         {
-          "enabled": true,
           "name": "Warrior",
           "anchor": "Parent",
           "pos": [
@@ -11890,6 +12355,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -11903,6 +12369,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -11915,7 +12383,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Soldier's Focus",
               "anchor": "Parent",
               "pos": [
@@ -11937,6 +12404,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -11950,6 +12418,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -11983,10 +12453,10 @@
               "size": [
                 50.0,
                 50.0
-              ]
+              ],
+              "align": "Center"
             },
             {
-              "enabled": true,
               "name": "Bladesworn",
               "anchor": "Parent",
               "pos": [
@@ -12004,6 +12474,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -12019,6 +12490,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -12031,7 +12504,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Flow",
                   "anchor": "Parent",
                   "pos": [
@@ -12049,6 +12521,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -12062,6 +12535,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -12082,12 +12557,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -12115,7 +12592,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Charges",
                   "anchor": "Parent",
                   "pos": [
@@ -12133,6 +12609,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -12146,6 +12623,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -12166,12 +12645,14 @@
                     0.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.62445414,
                     0.6244479,
                     0.6244479,
                     0.15720522
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -12199,7 +12680,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Flow",
                   "anchor": "Parent",
                   "pos": [
@@ -12221,6 +12701,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -12234,6 +12715,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -12254,12 +12737,14 @@
                     1.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
@@ -12285,7 +12770,6 @@
                   "ticks": []
                 },
                 {
-                  "enabled": true,
                   "name": "Fierce as Fire",
                   "anchor": "Parent",
                   "pos": [
@@ -12303,6 +12787,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -12316,6 +12801,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -12328,7 +12815,6 @@
                   "type": "Group",
                   "members": [
                     {
-                      "enabled": true,
                       "name": "Fierce as Fire Icon",
                       "anchor": "Parent",
                       "pos": [
@@ -12350,6 +12836,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -12363,6 +12850,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -12398,10 +12887,10 @@
                       "size": [
                         50.0,
                         50.0
-                      ]
+                      ],
+                      "align": "Center"
                     },
                     {
-                      "enabled": true,
                       "name": "Fierce as Fire Bar",
                       "anchor": "Parent",
                       "pos": [
@@ -12423,6 +12912,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -12436,6 +12926,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -12456,12 +12948,14 @@
                         0.0,
                         1.0
                       ],
+                      "fill_texture": "None",
                       "background": [
                         0.62352943,
                         0.62352943,
                         0.62352943,
                         0.15686275
                       ],
+                      "background_texture": "None",
                       "border_size": 1.0,
                       "border_color": [
                         0.0,
@@ -12497,7 +12991,6 @@
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Fierce as Fire Text",
                       "anchor": "Parent",
                       "pos": [
@@ -12519,6 +13012,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -12532,6 +13026,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -12558,7 +13054,6 @@
                   ]
                 },
                 {
-                  "enabled": true,
                   "name": "Berserker's Power",
                   "anchor": "Parent",
                   "pos": [
@@ -12576,6 +13071,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -12589,6 +13085,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -12601,7 +13099,6 @@
                   "type": "Group",
                   "members": [
                     {
-                      "enabled": true,
                       "name": "Berserker's Power Icon",
                       "anchor": "Parent",
                       "pos": [
@@ -12623,6 +13120,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -12636,6 +13134,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -12671,10 +13171,10 @@
                       "size": [
                         50.0,
                         50.0
-                      ]
+                      ],
+                      "align": "Center"
                     },
                     {
-                      "enabled": true,
                       "name": "Berserker's Power Bar",
                       "anchor": "Parent",
                       "pos": [
@@ -12696,6 +13196,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -12709,6 +13210,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -12729,12 +13232,14 @@
                         0.0,
                         1.0
                       ],
+                      "fill_texture": "None",
                       "background": [
                         0.62352943,
                         0.62352943,
                         0.62352943,
                         0.15686275
                       ],
+                      "background_texture": "None",
                       "border_size": 1.0,
                       "border_color": [
                         0.0,
@@ -12764,7 +13269,6 @@
                       ]
                     },
                     {
-                      "enabled": true,
                       "name": "Berserker's Power Text",
                       "anchor": "Parent",
                       "pos": [
@@ -12786,6 +13290,7 @@
                         }
                       },
                       "filter": {
+                        "enabled": true,
                         "player": {
                           "combat": null,
                           "weapons": [],
@@ -12799,6 +13304,8 @@
                           "skill_selections": [],
                           "skill_selections_mode": "All",
                           "prof_selections": [],
+                          "pets": [],
+                          "pet_mode": "All",
                           "mounts": []
                         },
                         "map": {
@@ -12829,7 +13336,6 @@
           ]
         },
         {
-          "enabled": true,
           "name": "Guardian",
           "anchor": "Parent",
           "pos": [
@@ -12847,6 +13353,7 @@
             }
           },
           "filter": {
+            "enabled": true,
             "player": {
               "combat": null,
               "weapons": [],
@@ -12866,6 +13373,8 @@
               "skill_selections": [],
               "skill_selections_mode": "All",
               "prof_selections": [],
+              "pets": [],
+              "pet_mode": "All",
               "mounts": []
             },
             "map": {
@@ -12878,7 +13387,6 @@
           "type": "Group",
           "members": [
             {
-              "enabled": true,
               "name": "Willbender",
               "anchor": "Parent",
               "pos": [
@@ -12896,6 +13404,7 @@
                 }
               },
               "filter": {
+                "enabled": true,
                 "player": {
                   "combat": null,
                   "weapons": [],
@@ -12911,6 +13420,8 @@
                   "skill_selections": [],
                   "skill_selections_mode": "All",
                   "prof_selections": [],
+                  "pets": [],
+                  "pet_mode": "All",
                   "mounts": []
                 },
                 "map": {
@@ -12923,7 +13434,6 @@
               "type": "Group",
               "members": [
                 {
-                  "enabled": true,
                   "name": "Justice",
                   "anchor": "Parent",
                   "pos": [
@@ -12945,6 +13455,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -12958,6 +13469,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -12991,10 +13504,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Justice duration",
                   "anchor": "Parent",
                   "pos": [
@@ -13016,6 +13529,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -13029,6 +13543,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -13053,7 +13569,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Flowing Resolve",
                   "anchor": "Parent",
                   "pos": [
@@ -13075,6 +13590,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -13088,6 +13604,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -13121,10 +13639,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Flowing Resolve duration",
                   "anchor": "Parent",
                   "pos": [
@@ -13146,6 +13664,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -13159,6 +13678,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -13183,7 +13704,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Crashing Course",
                   "anchor": "Parent",
                   "pos": [
@@ -13205,6 +13725,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -13218,6 +13739,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -13251,10 +13774,10 @@
                   "size": [
                     50.0,
                     50.0
-                  ]
+                  ],
+                  "align": "Center"
                 },
                 {
-                  "enabled": true,
                   "name": "Crashing Course duration",
                   "anchor": "Parent",
                   "pos": [
@@ -13276,6 +13799,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -13289,6 +13813,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -13313,7 +13839,6 @@
                   "conditions": []
                 },
                 {
-                  "enabled": true,
                   "name": "Lethal Tempo",
                   "anchor": "Parent",
                   "pos": [
@@ -13335,6 +13860,7 @@
                     }
                   },
                   "filter": {
+                    "enabled": true,
                     "player": {
                       "combat": null,
                       "weapons": [],
@@ -13348,6 +13874,8 @@
                       "skill_selections": [],
                       "skill_selections_mode": "All",
                       "prof_selections": [],
+                      "pets": [],
+                      "pet_mode": "All",
                       "mounts": []
                     },
                     "map": {
@@ -13368,12 +13896,14 @@
                     1.0,
                     1.0
                   ],
+                  "fill_texture": "None",
                   "background": [
                     0.0,
                     0.0,
                     0.0,
                     0.0
                   ],
+                  "background_texture": "None",
                   "border_size": 1.0,
                   "border_color": [
                     0.0,
